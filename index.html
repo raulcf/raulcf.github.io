@@ -1,28 +1,468 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30941069-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-30941069-2');
+        </script>
+
+        <meta charset="utf-8">
+        <title>R.C.F.</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/flat-ui.css">
+        <!-- Using only with Flat-UI (free)-->
+        <link rel="stylesheet" href="css/icon-font.css">
+        <!-- end -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+        <!-- NAV BAR -->
+        <header class="header-21">
+        <div class="container">
+        <!-- <div class='left-margin col-sm-3'>
+
+        </div> -->
+        <div class="navbar navbar-fixed-top col-sm-12">
+        <!-- <div class="navbar-header">
+            <button type="button" class="navbar-toggle"></button>
+            
+        </div> -->
+        <div class="collapse navbar-collapse">
+            <ul class="nav">
+                <li class="list-header">
+                    <div class='navbar-header'>
+                    <a class="brand" href="#" style="font-size: 20px; padding-top: 30px;">R. C. F</a>
+                    </div>
+                </li>
+                <li class="list-header">
+                    <a href="#publications">PUBLICATIONS</a>
+                </li>
+                <li class="list-header">
+                    <a href="#research">RESEARCH</a>
+                </li>
+                
+                 <li class="list-header">
+                    <a href="#others">ACTIVITIES</a>
+                </li>
+                
+                <li>
+                     <a href="https://www.linkedin.com/in/raul-castro-fernandez-68bb7626">
+                        <div class="fui-linkedin"></div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        <!-- <div class='left-margin col-sm-3'>
+
+            </div> -->
+        </div>
+        </header>
+
+        <!--First row-->
+        <div class='row'>
+            <div class='left-margin col-sm-2'>
+
+            </div>
+
+            <div class='col-sm-2'>
+                <h3> 
+                    <div class="container">
+                    <h3 class="main-name">RAUL CASTRO FERNANDEZ</h3>
+                    <p class='contact-info'>Postdoc MIT, CSAIL</p>
+                    <p class='contact-info'>Cambridge, MA, USA</p>
+                    <p class='contact-info'>raulcf at csail.mit.edu</p>
+                    </div>
+                </h3>
+            </div>
+
+            <div class='col-sm-4'>
+
+            </div>
+
+            <div class='picture col-sm-2'>
+                <h3>
+                    <img class="hl" src="img/raul-small.jpeg" width="200"
+height="200"  alt="Picture by Jason Dorfman@CSAIL">
+                </h3>
+            </div>
+
+            <div class='right-margin col-sm-2'>
+
+            </div>
+        </div>
+
+        <!-- Main headers. SUMMARY -->
+        <div class='row'>
+            <div class='left-margin col-sm-2'>
+
+            </div>
+
+            <div class='col-sm-8'>
+
+<!--
+                <p class="entry summary-text">
+
+                </p>
+
+                <p class="entry summary-text"> 
+Data has the potential to substantially improve many areas of our lives, from
+advancing scientific research to making people more productive to understanding
+society better.
+Most data is
+sequestered in silos or stored in formats that are hard to understand by
+machines and that limits its value. To use the remaining data and extract its
+maximum potential, we must improve the ways in which we discover, prepare, and
+process data.  
+                </p>
+-->
+    
+                <p class="entry summary-text">
+                In my research <span class='highlight'>I build systems for
+discovering, preparing, and processing data</span>. The goal of my reseach is to
+understand and exploit the value of data. I often use techniques from data
+management, statistics, and machine learning. At MIT I work with professors Sam
+Madden and Mike Stonebraker.  
+                </p>
+  
+                <p>
+                <span class='highlight'><i>I am joining <a
+href="https://cs.uchicago.edu">UChicago's CS department</a>
+in Fall 2019. If you are a postdoc or PhD student interested in working with me,
+send me an email explaining briefly your interest, and attach an
+up-to-date CV. </i></span> 
+                </p>
+                <!-- <a href='bio'>BIO</a> | <a href='cv'>CV</a> -->
+            </div>
+
+            <div class='right-margin col-sm-2'>
+
+            </div>
+        </div>
+
+
+        <!-- Main headers. PUBLICATIONS -->
+        <div class='row' id='publications'>
+            <div class='left-margin col-sm-2'>
+
+            </div>
+
+            <div class='col-sm-8'>
+                <h4 class="title">PUBLICATIONS</h4>
+
+<!--                
+                <h5 class="date">Preprint/Work in Progress</h5>
+
+                <ul>
+                <li class=".list-main-content">
+                <div><a href="" target="_blank">Dataset on Demand: User-Driven
+Interface for Data Discovery
+</a> Raul Castro Fernandez, Michael Stonebraker, Samuel Madden. <i>Work in progress</i><span class='highlight'></span></div> 
+                </li>
+                <li class=".list-main-content">
+                <div><a href="" target="_blank">Multi-Modal Database Exploration
+with a Relational Embedding.</a> Raul Castro Fernandez, Samuel Madden. <i>Work in progress</i><span class='highlight'></span></div> 
+                </li>
+
+                </ul>
+-->            
+                <h5 class="date">2019</h5>
+                <ul>
+
+                <li class=".list-main-content">
+                <div>
+                <a href="./papers/lazo_icde19_cr_verified.pdf" target="_blank">
+                 Lazo A Cardinality-Based Method for Coupled Estimation of
+Jaccard Similarity and Containment.</a> <i>Raul Castro Fernandez, Jisoo Min, Demitri
+Devada, Samuel Madden. </i><span class='highlight'>ICDE'19</span></div>
+                </li>
+                <li class=".list-main-content">
+                <div><a href="https://arxiv.org/abs/1903.05008" target="_blank">Termite:
+A System for Tunneling Through Heterogeneous Data. </a> <i>Raul Castro Fernandez,
+Samuel Madden. </i><span class='highlight'>AIDM@SIGMOD'19</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div>
+                <a href="./papers/raha.pdf" target="_blank">
+                 Raha: A Configuration-Free Error Detection System. </a> <i>Mohammad
+Mahdavi, Ziawasch Abedjan, Raul Castro Fernandez, Sam Madden, Mourad Ouzzani,
+Michael Stonebraker, Nan Tang
+</i><span class='highlight'>SIGMOD'19</span></div>
+                </li>
+
+
+                <li class=".list-main-content">
+                <div>
+                <a href="https://dl.acm.org/citation.cfm?id=3226631" target="_blank">Aurum: A Story About Research
+Taste</a> <i>Raul Castro Fernandez. </i><span class='highlight'>Making Databases
+Work. ACM Morgan & Claypool. 2019</span></div>
+                </li>
+
+                </ul>
+
+
+                <h5 class="date">2018</h5>
+                <ul>
+                <li class=".list-main-content">
+                <div><a href="./papers/icde18-aurum.pdf" target="_blank">Aurum: A Data Discovery System</a> Raul Castro Fernandez, Ziawasch Abedjan, Famien Koko, Gina Yuan, Samuel Madden, Michael Stonebraker. <span class='highlight'>ICDE'18</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/icde18-seeping.pdf" target="_blank">Seeping Semantics: Linking Datasets using Word Embeddings for Data Discovery</a> Raul Castro Fernandez,
+Essam Mansour, Abdulhakim Qahtan, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden,
+Mourad Ouzzani, Michael Stonebraker, Nan Tang. <span class='highlight'>ICDE'18</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/sigmod18-mdf.pdf" target="_blank">Meta-Dataflows:
+Efficient Exploratory Dataflow Jobs</a> Raul Castro Fernandez,
+William Culhane, William Culhane, Pijika Watcharapichat, Matthias Weidlich,
+Victoria Lopez Morales, Peter Pietzuch. <span class='highlight'>SIGMOD'18</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/icde18-xtructure.pdf" target="_blank">Extracting Syntactical
+Patterns from Databases</a> Andrew Ilyas, Joana M. F.
+da Trindade, Raul Castro Fernandez, Samuel Madden. <span class='highlight'>ICDE'18</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/kdd18-fahes.pdf" target="_blank">FAHES: A Robust Disguised Missing Values Detector</a> Mourad Ouzzani, Nan Tang, Ahmed Elmagarmid, Raul Castro Fernandez, Abdulhakim A. Qahtan. <span class='highlight'>KDD'18</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/icde2018-demo-civilizer.pdf" target="_blank">Building Data
+Civilizer Pipelines with an Advanced Workflow Engine</a> Essam Mansour, Dong Deng,
+Raul Castro Fernandez, Abdulhakim Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed
+Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan
+Tang. <span class='highlight'>(Demo) ICDE'18</span></div> 
+                </li>
+
+                </ul>
+            
+                <h5 class="date">2017</h5>
+                <ul>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/vldb17-quill.pdf" target="_blank">Quill: Efficient,
+Transferable, and Rich Analytics at Scale</a> Badrish Chandramouli,
+Raul Castro Fernandez, Jonathan Goldstein, Ahmed Eldawy, Abdul Quamar. <span class='highlight'>VLDB'17</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/cidr17-civilizer.pdf" target="_blank">The Data Civilizer System</a> Dong Deng, Raul Castro Fernandez, Ziawasch Abedjan, Sibo Wang, Michael Stonebraker, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Nan Tang. <span class='highlight'>CIDR'17</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/sigmod2017-demo-civilizer.pdf" target="_blank">A Demo of the Data
+Civilizer System</a> Raul Castro Fernandez, Dong
+Deng, Essam Mansour, Abdulhakim A Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed
+Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan
+Tang. (Demo) <span class='highlight'>SIGMOD'17</span></div> 
+                </li>
+
+                </ul>
+
+                <h5 class="date">2016</h5>
+
+                <ul>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/socc16-ako.pdf" target="_blank">Ako: Decentralised
+Deep Learning with Partial Gradient Exchange</a> Pijika Watcharapichat,
+Victoria Lopez Morales, Raul Castro Fernandez, Peter Pietzuch. <span class='highlight'>SOCC'16</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/vldb16-detectingerrors.pdf" target="_blank">Detecting Data Errors:
+Where are we and what needs to be done?</a> Ziawasch Abedjan, Xu Chu,
+Dong Deng, Raul Castro Fernandez, Ihab F. Ilyas, Mourad Ouzzani, Paolo Papotti,
+Michael Stonebraker, Nan Tang. <span class='highlight'>VLDB'16</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/sigmod16-workshop-aurum.pdf" target="_blank">Towards Large-Scale Data Discovery</a> Raul Castro Fernandez, Ziawasch Abedjan, Samuel Madden, Michael Stonebraker. <span class='highlight'>ExploreDB@SIGMOD'16</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/sigmod16-saber.pdf" target="_blank">SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures</a> Alexandros Koliousis, Matthias Weidlich, Raul Castro Fernandez, Paolo Costa, Alexander Wolf, Peter Pietzuch. <span class='highlight'>SIGMOD'16</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/icde16-demo-java2sdg.pdf" target="_blank">Java2SDG: Stateful Big Data Processing for the Masses</a> Raul Castro Fernandez, Panagiotis Garefalakis, Peter Pietzuch. <span class='highlight'>(Demo) ICDE'16</span></div> 
+                </li>
+
+                </ul>
+
+                <h5 class="date">2015</h5>
+                <ul>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/cidr15-liquid.pdf" target="_blank">Liquid: Unifying Nearline and Offline Big Data Integration</a> Raul Castro Fernandez, Peter Pietzuch, Joel Koshy, Jay Kreps, Dong Lin, Neha Narkhede, Jun Rao, Chris Riccomini, Guozhang Wang. <span class='highlight'>CIDR'15</span></div> 
+                </li>
+
+                </ul>
+
+                <h5 class="date">2014</h5>
+
+                <ul>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/atc14-sgd.pdf" target="_blank">Making State Explicit for Imperative Big Data Processing</a> Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki and Peter Pietzuch. <span class='highlight'>USENIX ATC'14</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/debs14_seep_gc14.pdf" target="_blank">Grand Challenge Scalable Stateful Stream Processing for Smart Grids</a> Raul Castro Fernandez, Matthias Weidlich, Peter Pietzuch and Avigdor Gal. <span class='highlight'>DEBS'14</span></div> 
+                </li>
+
+                </ul>
+
+                <h5 class="date">2013</h5>
+
+                <ul>
+
+                <li class=".list-main-content">
+                <div><a href="./papers/sigmod13-seep.pdf" target="_blank">Integrating Scale Out and Fault Tolerance in Stream Processing using Operator State Management</a> Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki and Peter Pietzuch. <span class='highlight'>SIGMOD'13</span></div> 
+                </li>
+
+                <li class=".list-main-content">
+                <div>
+                <!--<a href="#">-->
+                <b>Towards Low-Latency and In-Memory Large-Scale Data Processing
+                </b>
+                <!--</a>-->
+                Raul Castro Fernandez and Peter Pietzuch. <span class='highlight'>PhD Workshop@DEBS'13</span></div> 
+                </li>
+
+                </ul>
+
+            </div>
+
+            <div class='right-margin col-sm-2'>
+
+            </div>
+        </div>
+
+        <!-- Main headers. RESEARCH -->
+        <div class='row' id='research'>
+            <div class='left-margin col-sm-2'>
+
+            </div>
+
+            <div class='col-sm-8'>
+                <h4 class="title">RESEARCH</h4>
+
+                <h5 class="date">Data Discovery</h5>
+
+                <p class="entry research-text">
+                    Organizations store data in hundreds of different data sources, including relational databases, files, and large data lake repositories. These data sources contain valuable information and insights that can be beneficial to multiple aspects of modern data-driven organizations. However, as more data is produced, our ability to use it reduces dramatically, as no single person knows about all the existent data sources. One big challenge is to discover the data sources that are relevant to answer a particular question. Aurum is a data discovery system to answer "discovery queries" on large volumes of data.
+                </p>
+
+                <h5 class="date">Fabric of Data: Termite</h5>
+
+                <p class="entry research-text">
+                    In addition to structured sources such as relational tables, organizations are plagued with unstructured sources such as PDFs, text files and emails as well. Integrating both kinds of sources has been a cornerstone of multiple research communitifies for decades. It is challenging because it demands extracting structure from the unstructured sources and then finding a common schema to represent both. In this line of research, we advocate a different approach: rather than trying to infer a common schema, we aim to find a common representation for both structured and unstructured data. Specifically, we argue for an embedding (i.e., a vector space) in which all entities, rows, columns, and paragraphs are represented as points. In the embedding, the distance between points indicates their degree of relatedness, and we learn the embedding so that it satisfies different downstream applications, from filling missing values, to data discovery and verification among many others.
+                </p>
+
+                <h5 class="date">Stateful Data Processing</h5>
+
+                <p class="entry research-text">
+                    Large-scale data processing systems depend on stateless dataflows to extract data parallelims and execute the programs with fault tolerance. Many applications that require explicit access to state cannot be executed efficiently in such systems. Stateful data-parallel processing permits to execute stateful programs efficiently and still keeping the data parallelism and fault tolerance properties of traditional dataflow systems. In addition, with state in the applications we can translate imperative programs into stateful dataflow graphs, that can execute on a stateful data-parallel processing system.
+                </p>
+
+            </div>
+
+            <div class='right-margin col-sm-2'>
+
+            </div>
+        </div>
+
+        <!-- Main headers. OTHER STUFF -->
+        <div class='row' id='others'>
+            <div class='left-margin col-sm-2'>
+
+            </div>
+
+            <div class='col-sm-8'>
+                <h4 class="title">SERVICE, COMPANIES, EXPERIENCE</h4>
+
+                <h5 class="date">Service</h5>
+                    <ul>
+                    <li>
+                    <p>VLDB'20 PC Member</p>
+                    </li>
+                    <li>
+                    <p>SoCC'20 PC Member</p>
+                    </li>
+                    <li>
+                    <p>SIGMOD'19 PC Member</p>
+                    </li>
+                    <li>
+                    <p>VLDBJ Reviewer</p>
+                    </li>
+                    <li>
+                    <p>TKDE Reviewer</p>
+                    </li>
+                    <li>
+                    <p>TODS Reviewer</p>
+                    </li>
+                    </ul>
+                <h5 class="date">Entrepreneurship</h5>
+                    <ul>
+                    <li>
+                    <p><span class='highlight'>Ecana:</span> Ecana's technology was a data acquisition system, based on wireless sensor networks that would sense several stages of the wine making process, from the temperature, humidity of the vines, to the wineries. The acquired data was integrated with other external data sources such as weather forecasts from local stations. Finally, the data was visualized through a dashboard that would highlight KPIs of interest for the winemaker, helping to understand the process in more detail end-to-end.</p> 
+                    </li>
+                    <li>
+                    <p><span class='highlight'>contxt.in:</span> Way before 'fake news' we've had a big information overload problem, in which the same piece of news appears in many different feeds and sources, from social network such as Twitter, Facebook or Linkedin, to the traditional media outlets. The competition for attention was too fierce, and it was often the case that people would end up missing part of the story. Harder still was to start meaningful conversations around the topics of interest---opinion formation was getting harder and harder. With context, we built a system to aggregate news from multiple heterogeneous sources, and we used machine learning models that would relate those news around specific topis of interest for the user. Users had a platform to chat about the news they were most interested.</p>
+                    </li>
+                    </ul>
+                <h5 class="date">Work Experience</h5>
+                    <ul>
+                    <li>
+                    <p><span class='highlight'>MIT Postdoc:</span> At MIT I work on making the swaths of available data in organizations easy to find and use.</p> 
+                    </li>
+                    <li>
+                    <p><span class='highlight'>Microsoft Research Intern:</span> At Microsoft I worked on the design, implementation and evaluation of a new distributed data proccessing system, Quill, which uses the cloud to allow users an almost transparent deployment of their jobs. The goal was to make data processing easier for more people.</p>
+                    </li>
+                    <li>
+                    <p><span class='highlight'>PhD Imperial College London:</span> At Imperial I worked on distributed data processing.</p>
+                    </li>
+                    <li>
+                    <p><span class='highlight'>LinkedIn:</span> Software Engineer Intern. At LinkedIN I did a lot of systems work on the data infra group on Kafka and Samza, two key technologies at the backbone of many organizations today. </p>
+                    </li>
+                    <li>
+                    <p><span class='highlight'>UC3M:</span> Researcher at FP7 Project. Design and implementation of distributed real-time services for critical infrastructure.</p>
+                    </li>
+                    </ul>
+                <!-- <h5 class="date">Advising</h5> -->
+                <h5 class="date"></h5>
+                <div class='smallfooter'>
+                <p>Picture by Jason Dorfman @ CSAIL. Raul Castro Fernandez &#169 2018</p>
+                </div>
+
+            </div>
+
+            <div class='right-margin col-sm-2'>
+
+            </div>
+        </div>
+
+
+      <script src="js/jquery-1.10.2.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/modernizr.custom.js"></script>
+      <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+      <script src="js/startup-kit.js"></script>
+      <script src="js/script.js"></script>
+    </body>
 </html>
