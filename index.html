@@ -49,7 +49,6 @@
                 <li class="list-header">
                     <a href="#research">RESEARCH</a>
                 </li>
-                
                  <li class="list-header">
                     <a href="#others">ACTIVITIES</a>
                 </li>
@@ -131,9 +130,14 @@ process data.
     
                 <p class="entry summary-text">
                 In my research <span class='highlight'>I build systems for
-discovering, preparing, and processing data</span>. The goal of my research is to
-understand and exploit the value of data. I often use techniques from data
-management, statistics, and machine learning.  
+discovering, preparing, and processing data</span>. The goal of my research is
+to understand and exploit the value of data. I often use techniques from data
+management, statistics, and machine learning. My main effort these days is on
+building platforms to support <span class='highlight'>markets of data</span>.
+This is part of a larger research effort on understanding the <span
+class='highlight'>Economics of Data</span>. I'm part of <a
+href="https://data.cs.uchicago.edu" target="_blank">ChiData</a>, the data
+systems research group at The University of Chicago.
                 </p>
 
                 <h5 class="date"></h5>
@@ -168,24 +172,31 @@ participating in a research project, send me an up-to-date CV and let's chat.
                 <h4 class="title">PUBLICATIONS</h4>
 
                 <h5 class="date">Preprint/Work in Progress</h5>
-
                 <ul>
+                <li class=".list-main-content">
+                <div><a href="https://arxiv.org/abs/2002.01047"
+target="_blank">Data Market Platforms: Trading Data Assets to Solve Data
+Problems
+</a> Raul Castro Fernandez, Pranav Subramaniam, Michael Franklin. <i>Work in progress</i><span class='highlight'></span></div> 
+                </li>
                 <li class=".list-main-content">
                 <div><a href="https://arxiv.org/abs/1911.11876"
 target="_blank">Dataset on Demand: Automatic View Search for Data Discovery
 </a> Raul Castro Fernandez, Nan Tang, Mourad Ouzzani, Michael Stonebraker, Samuel Madden. <i>Work in progress</i><span class='highlight'></span></div> 
                 </li>
-                <li class=".list-main-content">
-                <div><a href="https://arxiv.org/abs/1911.11727"
-target="_blank">Starling: A Scalable Query Engine on Cloud Function Services</a>
-Matt Perron, Raul Castro Fernandez, David DeWitt, Samuel Madden. <i>To appear in SIGMOD 2020</i><span class='highlight'></span></div> 
-                </li>
-                </ul>
+                                </ul>
 
                 <h5 class="date">2020</h5>
                 <ul>
                 <li class=".list-main-content">
+                <div><a href="https://arxiv.org/abs/1911.11727"
+target="_blank">Starling: A Scalable Query Engine on Cloud Function Services</a>
+Matt Perron, Raul Castro Fernandez, David DeWitt, Samuel Madden. </i><span class='highlight'>SIGMOD 2020</span></div> 
+                </li>
+
+                <li class=".list-main-content">
                 <div>
+
                 <a href="./papers/cidr2020.pdf" target="_blank">
                  A System for Studying Deep Network Training</a> <i>Raul Castro Fernandez </i><span class='highlight'>CIDR'20 (Abstract)</span>
                 </div>
@@ -378,22 +389,64 @@ Michael Stonebraker, Nan Tang. <span class='highlight'>VLDB'16</span></div>
             <div class='col-sm-8'>
                 <h4 class="title">RESEARCH</h4>
 
+                <h5 class="date">Economics of Data</h5>
+                <p class="entry research-text">
+                Data only generates value for a few organizations with expertise and resources
+to make data shareable, discoverable, and easy to integrate. Sharing data that
+is easy to discover and integrate is hard because data owners lack information
+(who needs what data) and they do not have incentives to prepare the data in a
+way that is easy to consume by others. In this project we are studying how to
+design markets that incentivize participants to behave in a way that increases
+data's value and we are designing platforms to support this vision.
+                <p>
+
                 <h5 class="date">Data Discovery</h5>
 
                 <p class="entry research-text">
-                    Organizations store data in hundreds of different data sources, including relational databases, files, and large data lake repositories. These data sources contain valuable information and insights that can be beneficial to multiple aspects of modern data-driven organizations. However, as more data is produced, our ability to use it reduces dramatically, as no single person knows about all the existent data sources. One big challenge is to discover the data sources that are relevant to answer a particular question. Aurum is a data discovery system to answer "discovery queries" on large volumes of data.
+                Organizations store data in hundreds of different data sources,
+including relational databases, files, and large data lake repositories. These
+data sources contain valuable information and insights that can be beneficial to
+multiple aspects of modern data-driven organizations. However, as more data is
+produced, our ability to use it reduces dramatically, as no single person knows
+about all the existent data sources. One big challenge is to discover the data
+sources that are relevant to answer a particular question. Aurum is a data
+discovery system to answer "discovery queries" on large volumes of data.
                 </p>
 
-                <h5 class="date">Fabric of Data: Termite</h5>
+                <h5 class="date">Fabric of Data</h5>
 
                 <p class="entry research-text">
-                    In addition to structured sources such as relational tables, organizations are plagued with unstructured sources such as PDFs, text files and emails as well. Integrating both kinds of sources has been a cornerstone of multiple research communitifies for decades. It is challenging because it demands extracting structure from the unstructured sources and then finding a common schema to represent both. In this line of research, we advocate a different approach: rather than trying to infer a common schema, we aim to find a common representation for both structured and unstructured data. Specifically, we argue for an embedding (i.e., a vector space) in which all entities, rows, columns, and paragraphs are represented as points. In the embedding, the distance between points indicates their degree of relatedness, and we learn the embedding so that it satisfies different downstream applications, from filling missing values, to data discovery and verification among many others.
+                In addition to structured sources such as relational tables,
+organizations are plagued with unstructured sources such as PDFs, text files and
+emails as well. Integrating both kinds of sources has been a cornerstone of
+multiple research communitifies for decades. It is challenging because it
+demands extracting structure from the unstructured sources and then finding a
+common schema to represent both. In this line of research, we advocate a
+different approach: rather than trying to infer a common schema, we aim to find
+a common representation for both structured and unstructured data. Specifically,
+we argue for an embedding (i.e., a vector space) in which all entities, rows,
+columns, and paragraphs are represented as points. In the embedding, the
+distance between points indicates their degree of relatedness, and we learn the
+embedding so that it satisfies different downstream applications, from filling
+missing values, to data discovery and verification among many others. In this
+project we are building new abstractions for data management, such as a
+relational embedding, but also the next generation of open domain question
+answering systems and information extractors. The end goal is to be able to
+organize knowledge from different sources in a way that is easy to consume.
                 </p>
 
                 <h5 class="date">Stateful Data Processing</h5>
 
                 <p class="entry research-text">
-                    Large-scale data processing systems depend on stateless dataflows to extract data parallelims and execute the programs with fault tolerance. Many applications that require explicit access to state cannot be executed efficiently in such systems. Stateful data-parallel processing permits to execute stateful programs efficiently and still keeping the data parallelism and fault tolerance properties of traditional dataflow systems. In addition, with state in the applications we can translate imperative programs into stateful dataflow graphs, that can execute on a stateful data-parallel processing system.
+                    Large-scale data processing systems depend on stateless
+dataflows to extract data parallelism and execute the programs with fault
+tolerance. Many applications that require explicit access to state cannot be
+executed efficiently in such systems. Stateful data-parallel processing permits
+to execute stateful programs efficiently and still keeping the data parallelism
+and fault tolerance properties of traditional dataflow systems. In addition,
+with state in the applications we can translate imperative programs into
+stateful dataflow graphs, that can execute on a stateful data-parallel
+processing system.
                 </p>
 
             </div>
@@ -410,10 +463,22 @@ Michael Stonebraker, Nan Tang. <span class='highlight'>VLDB'16</span></div>
             </div>
 
             <div class='col-sm-8'>
-                <h4 class="title">OTHER</h4>
-
+                <h4 class="title">TEACHING, SERVICE, BIO</h4>
+                <h5 class="date">Teaching</h5>
+                    <ul>
+                    <li>
+                    <p>Ethics, Fairness, Responsibility, and Privacy in Data
+Science (Spring'20)</p>
+                    </li>
+                    <li>
+                    <p>Introduction to Databases (Winter'20)</p>
+                    </li>
+                    </ul>
                 <h5 class="date">Service</h5>
                     <ul>
+                    <li>
+                    <p>VLDB'21 PC Member</p>
+                    </li>
                     <li>
                     <p>VLDB'20 PC Member</p>
                     </li>
@@ -480,7 +545,8 @@ transfer of my research.
                 <!-- <h5 class="date">Advising</h5> -->
                 <h5 class="date"></h5>
                 <div class='smallfooter'>
-                <p>Picture by Jason Dorfman @ CSAIL. Raul Castro Fernandez &#169 2019</p>
+                <p>Picture by Jason Dorfman @ CSAIL. Raul Castro Fernandez &#169
+2020</p>
                 </div>
 
             </div>
