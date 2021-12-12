@@ -1,4 +1,4 @@
-title: Hello, world! I'm Raul Castro Fernandez
+title: raulcf blog 
 description: > # this means to ignore newlines until "baseurl:"
   Economics of data, value of data, academic research, data sharing, data management, machine learning, data value, data markets, data pricing
 permalink: ':title/'
@@ -14,7 +14,7 @@ author-img: ../../img/raul-small.jpeg # add your photo
 about-author: Assistant professor in computer science at the University of Chicago # add description
 social-twitter: raulcfernandez # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
+social-github: # add your Github handle
 social-linkedin: raulcfernandez # add your Linkedin handle
 social-email: raulcf@uchicago.edu # add your Email address
 
