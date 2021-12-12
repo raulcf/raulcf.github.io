@@ -13,9 +13,9 @@ author: Raul Castro Fernandez # add your name
 author-img: ../../img/raul-small.jpeg # add your photo
 about-author: Assistant professor in computer science at the University of Chicago # add description
 social-twitter: raulcfernandez # add your Twitter handle
-#social-facebook: # add your Facebook handle
-#social-github: artemsheludko # add your Github handle
-social-linkedin: www.linkedin.com/in/raulcfernandez # add your Linkedin handle
+social-facebook: # add your Facebook handle
+social-github: artemsheludko # add your Github handle
+social-linkedin: raulcfernandez # add your Linkedin handle
 social-email: raulcf@uchicago.edu # add your Email address
 
 # Disqus
