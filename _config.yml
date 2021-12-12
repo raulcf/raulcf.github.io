@@ -1,7 +1,6 @@
 title: Hello, world! I'm Raul Castro Fernandez
 description: > # this means to ignore newlines until "baseurl:"
-  Economics of data, value of data, academic research, data sharing, data
-management, machine learning, data value, data markets, data pricing
+  Economics of data, value of data, academic research, data sharing, data management, machine learning, data value, data markets, data pricing
 permalink: ':title/'
 #baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
 #baseurl: "/blog" # the subpath of your site, e.g. /blog
