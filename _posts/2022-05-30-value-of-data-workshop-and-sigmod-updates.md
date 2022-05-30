@@ -9,7 +9,7 @@ tags: value_of_data relational_embeddings data_markets
 
 I want to share three updates. The first is about a workshop we are organizing on *the value of data* and that will take place **in just one week**, from June 6th to the 8th. The second is a summary/pitch of a couple of papers we are presenting at SIGMOD'22 in Philadelphia (12th to 17th of June).
 
-###Workshop: [Data Value: Assessment and Evolution](https://www.imsi.institute/activities/data-value-assessment-and-evolution/)
+### Workshop: [Data Value: Assessment and Evolution](https://www.imsi.institute/activities/data-value-assessment-and-evolution/)
 
 With Professors Michael Franklin from UChicago and Jason Hartline from Northwestern, I've been organizing a 3-day workshop on the value of data ([check the schedule and invited speakers](https://www.imsi.institute/activities/data-value-assessment-and-evolution/)). This all started when [IMSI, the Institute for Mathematical and Statistical Innovation](https://www.imsi.institute/) at UChicago invited us to organize a workshop. I've found IMSI a great source of talks, workshops, and even longer courses on campus, and I encourage you to look at their webpage and see the breadth of topics they cover. 
 
@@ -17,7 +17,7 @@ Mike, Jason, and I put together a workshop program including researchers working
 
 One concrete goal I have for this workshop is to have a lot of discussion across the wide variety of backgrounds we are bringing together and produce some kind of report we can share widely afterward. I'd love for this report to summarize the things that we know, the things that we don't know but we want to know, the things that we don't know and that are likely not important (and why?), as well as a collection of ideas, reflections, and discussions we had. The good news is that if you are local (Chicago area), you can register and come. And if you are not local, IMSI offers some remote options: take a look and [register here](https://www.imsi.institute/activities/data-value-assessment-and-evolution/).
 
-###SIGMOD22 Paper: [Protecting Data Markets from Strategic Participants](https://raulcastrofernandez.com/papers/protecting-data-markets-sigmod22.pdf)
+### SIGMOD22 Paper: [Protecting Data Markets from Strategic Participants](https://raulcastrofernandez.com/papers/protecting-data-markets-sigmod22.pdf)
 
 This paper will be presented at [SIGMOD'22 in Philadelphia](https://2022.sigmod.org/index.shtml), which will be the first in-person conference I've been to since the beginning of the pandemic; I know this is true for many others. That alone is exciting. What makes it even more exciting is that some students are coming and this will be their first in-person conference *ever*.
 
@@ -36,7 +36,7 @@ So what's the take-away message? One way of reading the paper is that there are 
 
 I have thoughts for both interpretations, and the group is exploring a few of those. Looking forward to sharing them sometime soon! 
 
-###SIGMOD22 Paper. [Leva: Boosting Machine Learning Performance with Relational Embedding Data Augmentation](https://raulcastrofernandez.com/papers/leva-sigmod22.pdf)
+### SIGMOD22 Paper. [Leva: Boosting Machine Learning Performance with Relational Embedding Data Augmentation](https://raulcastrofernandez.com/papers/leva-sigmod22.pdf)
 
 The bulk of this work was done by my student Alex Zhao, who started it as a 3rd-year undergraduate CS and stats major at UChicago and finished it in his 4th year, just before moving on to industry. Alex is great and all credit for the excellent results of the paper goes to him. He'll be presenting this work at SIGMOD'22 in Philly. 
 
