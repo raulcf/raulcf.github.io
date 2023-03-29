@@ -16,6 +16,7 @@
 - May'22. Talk at BU CS. Mano's group.
 - Nov'21. Award. Griffin Applied Economics Incubator Grant: The Data Revolution
 - Oct'21. Award. Collaboration with MIT CRIPT's (Phase 2 Convergence Acc) 
+- Oct'21. Talk at The Dutch Seminar on Data Systems Design on [Data Stations](https://dsdsd.da.cwi.nl/past_talks/data-stations/)
 - Aug'21. Participate in a Panel: Scalable Data Curation at VLDB'21
 - Aug'21. Talk at MSR
 - Aug'21. Award. CIFEllow - Sainyam Galhotra (https://cifellows2021.org/2021-class/)
