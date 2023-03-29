@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Data Discovery Work: Ver and Metam"
-date: 2023-03-28 08:00:00
+date: 2023-03-27 08:00:00
 description: Updates on Data Discovery - Ver and Metam
 img:  # Add image post (optional)
 tags: data_discovery view_discovery relational_augmentation automl
