@@ -5,7 +5,6 @@ date: 2023-03-28 08:00:00
 description: Updates on Data Discovery - Ver and Metam
 img:  # Add image post (optional)
 tags: data_discovery view_discovery relational_augmentation automl
-
 ---
 
 Over the last year, our group has spent a lot of time pushing on our ideas on data markets, including designing and [publishing a data escrow system](https://www.vldb.org/pvldb/vol15/p3172-xia.pdf), which is a system foundation to deploy data markets and other applications that require controlling data flows. There are many exciting ideas and new designs that I'm looking forward to sharing soon. But today's post is about data discovery.
