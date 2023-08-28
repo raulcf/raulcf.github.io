@@ -1,3 +1,12 @@
+- Jul'23. Talk. Gave a talk 'Speaker Series & Lunch' at a Summer School at
+UChicago.
+- Jun'23. Participated in a Panel. SIGMOD'23 [Workshop on Large Language
+Models](http://deem-workshop.org/)
+- Jun'23. Participated in a Panel. SIGMOD'23 [Workshop on Data Economy](https://sites.google.com/view/data-economy-2023/)
+- Jun'23. Award. Received [SIGMOD Test-of-Time Award](https://sigmod.org/sigmod-awards/sigmod-test-of-time-award/)
+- May'23. Poster Session. Ethics, Fairness, Responsibility, and Privacy in Data
+Science. Students present their individual projects to an audience of ~70
+- Apr'23. Participated in a Panel: ICDE'23 Panel on Database Education 
 - Mar'23. Talk at NYU, VIDA group
 - Feb'23. Award. [Government Data Markets: Mapping and Evaluating Problems in Intergovernmental Data Flows]( https://neubauercollegium.uchicago.edu/news/neubauer-collegium-announces-new-research-projects-for-2023-24) support by Neubauer Collegium
 - Dec'22. Award. Scaling Data Discovery with the Ministry of Education in Indonesia
