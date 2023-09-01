@@ -1,3 +1,7 @@
+- Aug'23. Workshop. Along with Jian Pei and Xiaohui Yu I co-organized a workshop
+on [data markets at VLDB'23](https://sites.google.com/view/sdmvldb2023).
+- Aug'23. Tutorial. A tutorial on data markets presented at VLDB with Jian Pei
+and Xiaohui Yu.
 - Jul'23. Talk. Gave a talk 'Speaker Series & Lunch' at a Summer School at
 UChicago.
 - Jun'23. Participated in a Panel. SIGMOD'23 [Workshop on Large Language
