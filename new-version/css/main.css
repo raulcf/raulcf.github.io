@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+body{font-family:'Montserrat', sans-serif;font-weight:400;font-size:18px;line-height:25px;color:#000000;position:relative;margin: 0; padding:0;}
+img{border:none;max-width:100%;padding:0;margin:0;}
+a{color:#3a98c6;-moz-transition:all .2s linear;-webkit-transition:all .2s linear;text-decoration:none}
+a:hover,
+a:focus,
+a:active{color:#000;text-decoration:none}
+h1,h2,h3,h4,h5,h6{font-weight:600;padding:0;margin:0;color:#3a98c6;line-height:1;}
+
+.container{max-width:1430px;width:100%; padding-left: 15px; padding-right: 15px; margin-left: auto; margin-right: auto}
+.clear{clear:both}
+p:empty{display:none !important;}
+p:last-of-type{margin-bottom:0;padding-bottom:0}
+p{margin:0 0 30px 0;padding: 0}
+.topbar{padding: 25px 0; min-height: 227px; display: flex; flex-wrap: wrap; align-items: center; align-content: center;}
+.topbar .leftpart{ float: left;width: 70%;position: relative; padding: 0 0 0 270px}
+.topbar .avtar{ position: absolute; left: 45px; top: -9px;}
+.topbar .avtar img{width: 176px; height: 176px; border-radius: 50%; object-fit: cover}
+.topbar .leftpart h3{ color: #3a98c6;text-transform:uppercase;font-size: 36px; letter-spacing: 0.050rem; padding: 0 0 5px 0}
+.topbar .position{ color: #555555; margin: 0 0 10px 0}
+.topbar .position span{display: block; font-size: 22px;}
+.topbar p{margin-bottom: 0; padding-bottom: 0}
+.topbar p a{color: #000}
+.topbar p a:hover{color: #3a98c6}
+.topbar p.address{background: url("../images/icon-map.svg") 3px 3px no-repeat; background-size:14px; padding: 0 0 5px 28px }
+.topbar p.email{background: url("../images/icon-email.svg") left 6px no-repeat; background-size:19px; padding: 0 0 0 28px }
+.topbar .rightpart{text-align: right; font-size: 20px; color: #555555; float: right; width: 30%}
+
+.content{margin: 30px 0 80px 0; display: flex; flex-wrap: wrap}
+.content .leftpart{width: 62%; float: left; padding: 0 20px 0 0}
+.content .leftpart .titlebox{ background-image: -moz-linear-gradient( -90deg, rgb(48,94,139) 0%, rgb(15,56,75) 100%); background-image: -webkit-linear-gradient( -90deg, rgb(48,94,139) 0%, rgb(15,56,75) 100%); background-image: -ms-linear-gradient( -90deg, rgb(48,94,139) 0%, rgb(15,56,75) 100%);}
+.content .leftpart .titlebox h2{color: #fff; font-size: 26px; letter-spacing: 0.200rem; padding: 10px}
+.content .leftpart .titlebox img{width: 30px; margin: 0 13px 0 0;vertical-align: bottom}
+.content .descbox{padding: 20px 0}
+.content .newsbox{margin: 0 0 20px 0; font-size: 16px; line-height: 20px}
+.content .newsbox .news-date{font-size: 16px; font-weight: 400; text-transform: uppercase; line-height: 1; color: #555555;}
+.content .newsbox .news-title{font-size: 18px; font-weight: 600; line-height: 1; color: #3a98c6; padding: 6px 0}
+.content .newsbox .news-title a{color: #3a98c6;}
+.content .newsbox .news-title a:hover{color: #000;}
+.morenews{margin: 10px 0 10px 0; font-size:16px;}
+.morenews a{color: #0f384b; text-decoration: underline}
+.morenews a:hover{color: #000; text-decoration: none}
+.content .publicationbox .republican-year{font-size: 20px; color: #3a98c6; font-weight: 600; margin: 50px 0 10px 0; font-style: normal}
+.content .publicationbox .republican-year.first{margin-top: 0}
+.content .publicationbox p{margin-bottom: 0; font-style: italic; color: #555555; font-weight: 300; font-size: 14px; line-height: 22px;}
+.content .publicationbox strong{font-size: 16px; font-weight: 500; font-style: normal; color: #000}
+.content .publicationbox a{font-size: 16px; font-weight: 500; color: #3a98c6; font-style: normal}
+.content .publicationbox a:hover{color: #000;}
+
+
+.content .rightpart{width: 38%; float: left; padding: 0 0 0 20px}
+.content .rightpart .boxinner{border: 1px solid #0f384b; padding: 25px; margin: 0 0 30px 0; color: #555555; font-size: 16px; line-height: 18px;}
+.content .rightpart .introtxt{margin-bottom:30px;}
+.content .rightpart h2{ font-weight: 500; text-transform: uppercase; color: #0f384b; font-size: 26px; letter-spacing: 0.200rem; margin: 0 0 10px 0}
+.content .rightpart h3{ font-weight: 600; color: #3a98c6; font-size: 20px; margin: 0 0 10px 0}
+.content .rightpart ul{margin: 0; padding: 0 0 30px 18px}
+.content .rightpart ul li{margin: 0; padding: 0 0 2px 0; color: #000000;}
+.content .rightpart .boxinner .morebtn{margin: 15px 0 10px 0; font-size:16px;}
+.content .rightpart .boxinner .morebtn a{color: #0f384b; text-decoration: underline}
+.content .rightpart .boxinner .morebtn a:hover{color: #000; text-decoration: none}
+.content .rightpart .biobox{margin: 130px 0 0 0}
+
+
+@media only screen and (max-width: 1460px){
+    .container{padding-left: 80px; padding-right: 80px;}
+    .topbar .rightpart{font-size: 16px;}
+    .topbar .leftpart h3{font-size:30px;}
+    .topbar .position span{font-size: 18px;}
+    body{font-size: 16px;}
+    .content .leftpart .titlebox h2{font-size: 24px; letter-spacing: 0.140rem}
+    .content .rightpart h2{font-size: 24px;}
+    
+}
+
+@media only screen and (max-width: 1370px){
+    .topbar .rightpart { font-size: 15px; line-height: 1.3;}
+    .content .rightpart .boxinner{font-size: 15px;}
+    .topbar .leftpart h3 { font-size: 28px;}   
+    body{line-height: 22px}
+    .content{margin-bottom: 50px}
+}
+
+@media only screen and (max-width: 1199px){
+    .topbar .leftpart h3 { font-size: 24px;}
+    .container{padding-left: 30px; padding-right: 30px;}     
+    
+}
+
+@media only screen and (max-width: 991px){
+    .topbar .leftpart{width: 100%}
+    .topbar .rightpart{width: 100%; margin: 30px 0 0 0; text-align: left}
+    .topbar .avtar img{width: 155px; height: 155px;}
+    .content .rightpart h3{font-size: 18px;}
+    .content .rightpart h2 { font-size: 22px; letter-spacing: 0.140rem;}
+    .content{margin-bottom: 30px}
+    
+}
+
+@media only screen and (max-width: 767px){
+    
+    .content .leftpart{width: 100%}
+    .content .rightpart{width: 100%}
+    .topbar .leftpart{padding: 120px 0 0 0}
+    .topbar .avtar img {
+    width: 120px;
+        height: 120px;}
+    .topbar .avtar{left: 0; top: 0; right: 0;}
+    .container{padding-left:30px; padding-right:30px }
+    .topbar .leftpart h3 { margin: 15px 0 0 0; font-size: 18px; letter-spacing: 0}
+    .topbar .position span {
+    font-size: 16px;
+}
+    body {
+    font-size: 15px;
+    line-height: 20px;
+}
+    .topbar .rightpart{text-align: left}
+    .topbar .rightpart {
+    font-size: 16px;
+}
+    .content .leftpart .titlebox h2{font-size: 20px; letter-spacing: 0.100rem;}
+    .content .leftpart .titlebox img{vertical-align: -5px;}
+    .content .newsbox .news-title{font-size: 16px; line-height: 1.2}
+    .content .leftpart{padding: 0}
+    .content .rightpart{padding: 0}
+    .content .newsbox .news-date{font-size: 14px;}
+    .content .publicationbox .republican-year{margin-top: 30px;}
+    .content .rightpart h2{font-size: 22px;}
+    .content .rightpart h3{font-size: 18px;}
+    .content .rightpart .biobox {
+    margin: 30px 0 0 0;
+}
+    .content{margin-bottom: 0}
+    .topbar .position{font-size: 14px}
+    .topbar p.address{background-position: 3px 1px;}
+    .content .rightpart ul{padding-bottom: 20px;}
+    .topbar .rightpart{line-height: 20px;}
+    
+    
+}
