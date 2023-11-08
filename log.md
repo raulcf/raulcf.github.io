@@ -1,10 +1,13 @@
-- Oct'23. Industry Series. Along with DSI, we organized the first 'Chicago Data
-Night' in the 1871 Incubator in the Merchandise Mart building.
+- Oct'23. Industry Series. Along with DSI, we organized the first <a
+href="https://datascience.uchicago.edu/events/chicago-data-night-dr-helen-sun-and-kader-sakkaria/">'Chicago Data
+Night'</a> in the 1871 Incubator in the Merchandise Mart building.
 - Aug'23. Workshop. Along with Jian Pei and Xiaohui Yu I co-organized a workshop
 on [data markets at VLDB'23](https://sites.google.com/view/sdmvldb2023).
 - Aug'23. Tutorial. A tutorial on data markets presented at VLDB with Jian Pei
 and Xiaohui Yu.
-- Jul'23. Dissemination. The ''Data Coalitions and Escrow Agents'' from
+- Jul'23. Dissemination. The <a
+href="https://www.radicalxchange.org/media/blog/data-coalitions-and-escrow-agents/">''Data
+Coalitions and Escrow Agents''</a> from
 RadicalXchange features our work on data escrows, including the Data Station
 system. [Here](https://www.radicalxchange.org/media/documents/data-coalitions-and-escrow-agents.pdf)
 - Jul'23. Talk. Gave a talk 'Speaker Series & Lunch' at a Summer School at
