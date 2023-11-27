@@ -1,6 +1,6 @@
 - Oct'23. Industry Series. Along with DSI, we organized the first <a
 href="https://datascience.uchicago.edu/events/chicago-data-night-dr-helen-sun-and-kader-sakkaria/">'Chicago Data
-Night'</a> in the 1871 Incubator in the Merchandise Mart building.
+Night'</a> in the 1871 Incubator in the Merchandise Mart building (see more [here](https://datascience.uchicago.edu/news/chicago-data-nights-bring-together-academics-and-industry-professionals-in-downtown-chicago/)).
 - Aug'23. Workshop. Along with Jian Pei and Xiaohui Yu I co-organized a workshop
 on [data markets at VLDB'23](https://sites.google.com/view/sdmvldb2023).
 - Aug'23. Tutorial. A tutorial on data markets presented at VLDB with Jian Pei
