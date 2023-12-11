@@ -1,3 +1,6 @@
+- Dec'23. Panel on Data Valuation. The title of the panel is "From Algorithms to Application: How to Make Use of Data Valuation and Contribution Estimation in the Real World". The panel was part of a tutorial tutorial <a href="https://nips.cc/virtual/2023/events/tutorial">"Data Contribution Esitmation for Machine Learning" </a> at Neurips'23.
+- Nov'23. Industry Series. We had Ari Kaplan for the second installment of the <a
+href="https://datascience.uchicago.edu/events/chicago-data-night-ari-kaplan-databricks/">Chicago Data Night series</a>
 - Oct'23. Industry Series. Along with DSI, we organized the first <a
 href="https://datascience.uchicago.edu/events/chicago-data-night-dr-helen-sun-and-kader-sakkaria/">'Chicago Data
 Night'</a> in the 1871 Incubator in the Merchandise Mart building (see more [here](https://datascience.uchicago.edu/news/chicago-data-nights-bring-together-academics-and-industry-professionals-in-downtown-chicago/)).
