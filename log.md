@@ -1,3 +1,10 @@
+- Mar'24. Talk on "Data Ecology" at the Data Ingelligence Institute of Paris,
+Imperial College London, and Universidad Carlos III de Madrid
+- Feb'24. Industry Series. We had Doug Laney from West Monroe (and author of
+Infonomics) for another installment of the <a href="https://datascience.uchicago.edu/events/chicago-data-night-douglas-laney-infonomics/">Chicago Data Night series</a>
+- Feb'24. Talk on "Data Ecology" at Harvard, MIT, Brown, UCSD, UCIrvine,
+UCBerkeley
+- Jan'24. Talk on "Data Ecology" at Northwestern and UW Madison.
 - Dec'23. Panel on Data Valuation. The title of the panel is "From Algorithms to Application: How to Make Use of Data Valuation and Contribution Estimation in the Real World". The panel was part of a tutorial tutorial <a href="https://nips.cc/virtual/2023/events/tutorial">"Data Contribution Esitmation for Machine Learning" </a> at Neurips'23.
 - Nov'23. Industry Series. We had Ari Kaplan for the second installment of the <a
 href="https://datascience.uchicago.edu/events/chicago-data-night-ari-kaplan-databricks/">Chicago Data Night series</a>
