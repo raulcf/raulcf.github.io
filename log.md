@@ -1,3 +1,6 @@
+- Apr'24. Workshop organized with Neubauer Collegium and DSI on "Data Ecology" - <a
+href="https://neubauercollegium.uchicago.edu/events/a-conversation-about-data-ecology">link
+here</a>.
 - Mar'24. Talk on "Data Ecology" at the Data Ingelligence Institute of Paris,
 Imperial College London, and Universidad Carlos III de Madrid
 - Feb'24. Industry Series. We had Doug Laney from West Monroe (and author of
