@@ -1,3 +1,5 @@
+- May'24. TDSC. The Data Science Conference. Gave a talk on "data ecology" and
+"data escrows" at <a href="https://www.thedatascienceconference.com/agenda">The Data Science Conference (TDSC)</a>.
 - Apr'24. Workshop organized with Neubauer Collegium and DSI on "Data Ecology" - <a
 href="https://neubauercollegium.uchicago.edu/events/a-conversation-about-data-ecology">link
 here</a>.
