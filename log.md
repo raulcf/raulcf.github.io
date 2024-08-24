@@ -1,3 +1,8 @@
+- Aug'24. Presenting 1 research paper at VLDB
+- Jun'24. Presenting 3 research papers, 2 demo papers, and 1 tutorial at SIGMOD
+in Santiago de Chile
+- Jun'24. Participated on a day event at a Gartner Research Board meeting
+discussing data sharing, data escrows, and LLMs.
 - May'24. TDSC. The Data Science Conference. Gave a talk on "data ecology" and
 "data escrows" at <a href="https://www.thedatascienceconference.com/agenda">The Data Science Conference (TDSC)</a>.
 - Apr'24. Workshop organized with Neubauer Collegium and DSI on "Data Ecology" - <a
