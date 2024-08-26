@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "On value, cost, and how to save money when running SQL on the Cloud"
+title: "On value, cost, and how to save money when running SQL Queries on the Cloud"
 date: 2024-08-24 8:00:00
 description: Overview of Arachne
 img:  # Add image post (optional)
