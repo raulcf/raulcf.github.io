@@ -1,3 +1,10 @@
+- Nov'24. "Data Sharing" at a <a href="https://www.ideal-institute.org/2024/11/08/fairness-in-generative-ai-protecting-and-compensating-content-producers/">IDEAL Workshop on Harmonious AI-Human Systems at
+UIC.</a>
+- Nov'24. "Data Discovery" at a talk series at GSL@Microsoft.
+- Nov'24. "On Data Ecology" at a talk series at the Harris Public Policy School,
+organized by the CAPP program.
+- Oct'24.
+- Sep'24.
 - Aug'24. Presenting 1 research paper at VLDB
 - Jun'24. Presenting 3 research papers, 2 demo papers, and 1 tutorial at SIGMOD
 in Santiago de Chile

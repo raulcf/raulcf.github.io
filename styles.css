@@ -1,0 +1,148 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /*font-family: Arial, sans-serif;*/
+    font-family: "Unna", serif;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Centered Navigation Menu */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
+
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto; /* Center horizontally */
+    text-align: left;
+}
+
+.main-title {
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Mobile first: Styles adjust for larger screens */
+@media (min-width: 768px) {
+    body {
+        padding: 40px;
+    }
+}
+
+.unna-regular {
+  font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.unna-bold {
+  font-family: "Unna", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.unna-regular-italic {
+  font-family: "Unna", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.unna-bold-italic {
+  font-family: "Unna", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Style for the year blocks */
+.year-block {
+    margin-bottom: 20px; /* Space between years */
+}
+
+.year-block h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.year-block ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0;
+}
+
+.year-block li {
+    margin-bottom: 8px; /* Space between publication entries */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.year-block li strong {
+    font-weight: bold;
+}
+
+
+/* Link Styles: Default, Hover, and Visited */
+a {
+    color: #1e90ff; /* Default color: DodgerBlue */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4169e1; /* Hover color: RoyalBlue */
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #4682b4; /* Visited color: SteelBlue */
+}
