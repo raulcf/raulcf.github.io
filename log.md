@@ -3,8 +3,10 @@ UIC.</a>
 - Nov'24. "Data Discovery" at a talk series at GSL@Microsoft.
 - Nov'24. "On Data Ecology" at a talk series at the Harris Public Policy School,
 organized by the CAPP program.
-- Oct'24.
-- Sep'24.
+- Oct'24. New Safeinsights project Safeinsights project kick-off meeting. Talk
+on "data ecology" and the value of data at the AI Horizons event organized by
+UC3M in Madrid.
+- Sep'24. New Members Join the Group Joyce Chen and Hrishee Shastri join the group
 - Aug'24. Presenting 1 research paper at VLDB
 - Jun'24. Presenting 3 research papers, 2 demo papers, and 1 tutorial at SIGMOD
 in Santiago de Chile
