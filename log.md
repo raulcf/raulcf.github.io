@@ -1,3 +1,6 @@
+- Jan'25. "On Data Ecology, Dataflow Thinking, and the Role of LLMs in Data
+Ecosystems" talk at the AI/ML Affinity group at the US Census Bureau.
+- Jan'25. <a href="https://www.manuelcebrian.com/">Manuel Cebrian</a> visited our group.
 - Nov'24. "Data Sharing" at a <a href="https://www.ideal-institute.org/2024/11/08/fairness-in-generative-ai-protecting-and-compensating-content-producers/">IDEAL Workshop on Harmonious AI-Human Systems at
 UIC.</a>
 - Nov'24. "Data Discovery" at a talk series at GSL@Microsoft.
