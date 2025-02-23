@@ -1,3 +1,5 @@
+- Feb'25. Named <a href="https://sloan.org/fellowships/2025-fellows">Sloan
+Research Fellow</a>
 - Jan'25. "On Data Ecology, Dataflow Thinking, and the Role of LLMs in Data
 Ecosystems" talk at the AI/ML Affinity group at the US Census Bureau.
 - Jan'25. <a href="https://www.manuelcebrian.com/">Manuel Cebrian</a> visited our group.

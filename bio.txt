@@ -6,7 +6,8 @@ study ecosystems via dataflows and propose interventions--- primarily technical,
 but also economic, social, and others---to control dataflows so we extract the
 value of data while avoiding its potential harm. In addition, I am interested in
 designing and implementing systems for data discovery and processing. I received
-a SIGMOD'23 Test-of-Time Award and an NSF CAREER in 2024.  After doing my PhD at
+a SIGMOD'23 Test-of-Time Award, an NSF CAREER in 2024, and I was named a Sloan
+Research Fellow in 2025. After doing my PhD at
 Imperial College London (in distributed data processing) I did a postdoc at MIT
 (in data discovery).  I thank everyone who makes our research possible,
 including DSI@UChicago, the Department of Economics at UChicago, NSF, and
