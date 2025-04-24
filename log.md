@@ -1,3 +1,5 @@
+- Apr'25. Participated in a Law and Technology Society event at the Law School
+with Professor Bridget Fahey.
 - Feb'25. Named <a href="https://sloan.org/fellowships/2025-fellows">Sloan
 Research Fellow</a>
 - Jan'25. "On Data Ecology, Dataflow Thinking, and the Role of LLMs in Data
