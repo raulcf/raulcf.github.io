@@ -1,3 +1,10 @@
+- May'25. Hosted Professor Ethan Zuckerman as part of our Data Ecology Speaker
+Series.
+- May'25. Attended and presented at the Workshop 'LLMs meet Data Management' at UCBerkeley
+- May'25. Hosted Professor Moshe Vardi as part of our DSI Distinguished Seminar
+Speaker Series.
+- Apr'25. Hosted Professor Margo Seltzer as part of our DSI Distinguished
+Seminar Speaker Series
 - Apr'25. Participated in a Law and Technology Society event at the Law School
 with Professor Bridget Fahey.
 - Feb'25. Named <a href="https://sloan.org/fellowships/2025-fellows">Sloan
