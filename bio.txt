@@ -1,34 +1,38 @@
 Brief:
-I am an assistant professor in the Department of Computer Science at The
-University of Chicago, where I research topics related to data: how it affects
-us, what is its value, and how can we make better use of it. To do that, I do
-conceptual work but also a lot of hands-on systems research. 
+I’m an assistant professor in the Department of Computer Science at the
+University of Chicago, where I study data: how it affect our social ecosystems,
+what is its value, and how we can make better use of it. My work combines
+conceptual thinking with hands-on systems research.
 
 Shorter:
-I am an assistant professor in the Department of Computer Science at The
-University of Chicago, where I am also on the Committee on Data Science. I am
-interested in all things data. My research agenda, data ecology, explores how
-data affects our technological, economic, social, and cultural ecosystems. We
-study ecosystems via dataflows and propose interventions--- primarily technical,
-but also economic, social, and others---to control dataflows so we extract the
-value of data while avoiding its potential harm. I did my PhD at Imperial
-College London and a postdoc at MIT. I joined UChicago in 2020.
+I’m an assistant professor in the Department of Computer Science at the
+University of Chicago, where I’m also a member of the Committee on Data Science.
+I’m interested in all things data. My research agenda, data ecology,
+investigates how data shapes our technological, economic, social, and cultural
+ecosystems. We study these ecosystems through the lens of dataflows and develop
+interventions---primarily technical (new data infrastructure), but also
+economic (incentive schemes, market designs), social, and
+institutional---to steer those flows. Our goal is to unlock the value of data
+while mitigating its potential harms. I earned my PhD at Imperial College London
+and completed a postdoc at MIT. I joined UChicago in 2020.
+
 
 Short:
-I am an assistant professor in the Department of Computer Science at The
-University of Chicago, where I am also on the Committee on Data Science. I am
-interested in all things data. My research agenda, data ecology, explores how
-data affects our technological, economic, social, and cultural ecosystems. We
-study ecosystems via dataflows and propose interventions--- primarily technical,
-but also economic, social, and others---to control dataflows so we extract the
-value of data while avoiding its potential harm. In addition, I am interested in
-designing and implementing systems for data discovery and processing. I received
-a SIGMOD'23 Test-of-Time Award, an NSF CAREER in 2024, and I was named a Sloan
-Research Fellow in 2025. After doing my PhD at Imperial College London (in
-distributed data processing) I did a postdoc at MIT (in data discovery). I
-joined UChicago in 2020. I thank everyone who makes our research possible,
-including DSI@UChicago, the Department of Economics at UChicago, NSF, and
-industrial gifts. 
+I’m an assistant professor in the Department of Computer Science at the
+University of Chicago, where I’m also affiliated with the Committee on Data
+Science. I’m interested in all things data. My research agenda, data ecology,
+explores how data shapes our technological, economic, social, and cultural
+systems. We study dataflows to understand these ecosystems and design
+interventions---primarily technical (new data infrastructure), but also
+economic (incentive schemes, market designs), social, and
+institutional---that allow us to realize the benefits of data while reducing its
+harms. I’m also interested in the design and implementation of systems for data
+discovery and processing. I received the SIGMOD Test-of-Time Award in 2023, an
+NSF CAREER Award in 2024, and was named a Sloan Research Fellow in 2025. I
+completed my PhD at Imperial College London (on distributed data processing) and
+my postdoc at MIT (on data discovery). I joined UChicago in 2020. I’m grateful
+to the many organizations that support our research, including DSI@UChicago, the
+Department of Economics at UChicago, the NSF, and various industry partners.
 
 Long:
 Links to PDFs <TBD>
