@@ -1,3 +1,20 @@
+Brief:
+I am an assistant professor in the Department of Computer Science at The
+University of Chicago, where I research topics related to data: how it affects
+us, what is its value, and how can we make better use of it. To do that, I do
+conceptual work but also a lot of hands-on systems research. 
+
+Shorter:
+I am an assistant professor in the Department of Computer Science at The
+University of Chicago, where I am also on the Committee on Data Science. I am
+interested in all things data. My research agenda, data ecology, explores how
+data affects our technological, economic, social, and cultural ecosystems. We
+study ecosystems via dataflows and propose interventions--- primarily technical,
+but also economic, social, and others---to control dataflows so we extract the
+value of data while avoiding its potential harm. I did my PhD at Imperial
+College London and a postdoc at MIT. I joined UChicago in 2020.
+
+Short:
 I am an assistant professor in the Department of Computer Science at The
 University of Chicago, where I am also on the Committee on Data Science. I am
 interested in all things data. My research agenda, data ecology, explores how
@@ -7,8 +24,11 @@ but also economic, social, and others---to control dataflows so we extract the
 value of data while avoiding its potential harm. In addition, I am interested in
 designing and implementing systems for data discovery and processing. I received
 a SIGMOD'23 Test-of-Time Award, an NSF CAREER in 2024, and I was named a Sloan
-Research Fellow in 2025. After doing my PhD at
-Imperial College London (in distributed data processing) I did a postdoc at MIT
-(in data discovery).  I thank everyone who makes our research possible,
+Research Fellow in 2025. After doing my PhD at Imperial College London (in
+distributed data processing) I did a postdoc at MIT (in data discovery). I
+joined UChicago in 2020. I thank everyone who makes our research possible,
 including DSI@UChicago, the Department of Economics at UChicago, NSF, and
 industrial gifts. 
+
+Long:
+Links to PDFs <TBD>
