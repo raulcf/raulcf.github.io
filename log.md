@@ -1,3 +1,4 @@
+- Jun'25. Participated in NSF Panel Review
 - May'25. Hosted Professor Ethan Zuckerman as part of our Data Ecology Speaker
 Series.
 - May'25. Attended and presented at the Workshop 'LLMs meet Data Management' at UCBerkeley
@@ -18,6 +19,7 @@ UIC.</a>
 - Nov'24. "On Data Ecology" at a talk series at the Harris Public Policy School,
 organized by the CAPP program.
 - Oct'24. New Safeinsights project Safeinsights project kick-off meeting. Talk
+- Oct'24. Participated in NSF Panel Review
 on "data ecology" and the value of data at the AI Horizons event organized by
 UC3M in Madrid.
 - Sep'24. New Members Join the Group Joyce Chen and Hrishee Shastri join the group
