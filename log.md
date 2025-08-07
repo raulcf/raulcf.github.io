@@ -1,3 +1,6 @@
+- Jul'25. Gave an overview talk on Data Ecology at UChicago CS's summer school.
+- Jun'25. Co-organized, with Eugene Wu, a panel on "What is next for academic
+database management?" at SIGMOD'25.
 - Jun'25. Participated in NSF Panel Review
 - May'25. Hosted Professor Ethan Zuckerman as part of our Data Ecology Speaker
 Series.
