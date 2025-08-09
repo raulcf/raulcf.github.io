@@ -32,7 +32,7 @@ NSF CAREER Award in 2024, and was named a Sloan Research Fellow in 2025. I
 completed my PhD at Imperial College London (on distributed data processing) and
 my postdoc at MIT (on data discovery). I joined UChicago in 2020. I’m grateful
 to the many organizations that support our research, including DSI@UChicago, the
-Department of Economics at UChicago, the NSF, and various industry partners.
+Department of Economics at UChicago, the NSF, the Sloan Research Foundation, and various industry partners.
 
 Long:
 Links to PDFs <TBD>
