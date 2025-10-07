@@ -1,3 +1,10 @@
+- Sep'25. Invited talk on data ecology at the <a
+href="https://allerton.csl.illinois.edu/">Allerton Conference 2025</a>
+- Sep'25. Co-organized, with Eugene Wu, a second installment of a panel on "What
+is next for academic database management?" at VLDB'25.
+- Sep'25. I was named Distinguised Associate Editor for VLDB.
+- Sep'25. Co-chair of <a href="https://vldb.org/2025/?call-for-phd-workshop">PhD
+Workshop at VLDB'25.</a>
 - Aug'25. Speaker at the <a href="https://sites.google.com/ttic.edu/incentivesdatasharing/home?authuser=0">Incentives for Collaborative Learning and Data Sharing. TTIC Summer Workshop</a>
 - Jul'25. Gave an overview talk on Data Ecology at UChicago CS's summer school.
 - Jun'25. Co-organized, with Eugene Wu, a panel on "What is next for academic
