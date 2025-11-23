@@ -1,3 +1,10 @@
+- Nov'25. Hosted Bhaskar Ray Chaudhury, Pooja Kulkarni, Aniket Murhekar, and
+Amine Bennouna to give invited guest lectures to the "The Value of Data"
+Seminar.
+- Oct'25. Invited talk on "Data Sharing Markets (Data Ecology)" on the session
+"Data: Markets and Collaboration" at the INFORMS Annual Meeting 2025.
+- Oct'25. Hosted Professor Chris Wiggings from Columbia as part of our Data
+Ecology Initiative Speaker Series.
 - Sep'25. Invited talk on data ecology at the <a
 href="https://allerton.csl.illinois.edu/">Allerton Conference 2025</a>
 - Sep'25. Co-organized, with Eugene Wu, a second installment of a panel on "What
