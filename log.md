@@ -1,3 +1,5 @@
+- Jan'26. Presented the Pneuma Project at CIDR. 
+- Dec'25. Yue Gong presented our work at Neurips'25.
 - Nov'25. Hosted Bhaskar Ray Chaudhury, Pooja Kulkarni, Aniket Murhekar, and
 Amine Bennouna to give invited guest lectures to the "The Value of Data"
 Seminar.
