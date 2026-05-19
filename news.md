@@ -1,0 +1,9 @@
+- **APR'26** Presented at the [AImpact Workshop at UIUC](https://example.com)
+- **FEB'26** Presented Data Ecology and Data Markets work at M3 Workshop
+- **JAN'26** Presented the [Pneuma Project](./papers/pneuma-cidr26.pdf) at CIDR
+- **SEP'25** Named Distinguished Associate Editor for VLDB. Co-chaired the [PhD Workshop at VLDB'25](https://vldb.org/2025/?call-for-phd-workshop)
+- **AUG'25** Speaker at the [Incentives for Collaborative Learning and Data Sharing — TTIC Summer Workshop](https://sites.google.com/ttic.edu/incentivesdatasharing/home?authuser=0)
+- **FEB'25** Named [Sloan Research Fellow](https://sloan.org/fellowships/2025-fellows)
+- **JAN'25** Talk on data ecology at the AI/ML Affinity group at the US Census Bureau
+- **NOV'24** Talks on data ecology at Harris School of Public Policy, on data discovery at GSL@Microsoft, and on data sharing at an [IDEAL workshop](https://www.ideal-institute.org/2024/11/08/fairness-in-generative-ai-protecting-and-compensating-content-producers/)
+- **OCT'24** [Safeinsights project](https://www.safeinsights.org) kick-off meeting

@@ -1,148 +1,404 @@
-/* Reset basic styles */
-* {
+/* ============================================================
+   Raul Castro Fernandez — styles.css
+   Minimal, compact, Inter sans-serif
+   ============================================================ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+:root {
+    --text:    #1a1a1a;
+    --muted:   #5a5a5a;
+    --light:   #888;
+    --accent:  #8b1a1a;       /* academic maroon */
+    --link:    #1a52a8;
+    --visited: #5575a8;
+    --border:  #e0e0e0;
+    --chip-bg: #fdf4f4;
+    --chip-bd: #e8c8c8;
+    --max-w:   760px;
 }
 
 html {
+    font-size: 15px;
     scroll-behavior: smooth;
 }
 
 body {
-    /*font-family: Arial, sans-serif;*/
-    font-family: "Unna", serif;
-    font-weight: 400;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    color: var(--text);
+    background: #fff;
+    line-height: 1.55;
+    padding: 1.6rem 1.2rem;
 }
-
-/* Centered Navigation Menu */
-nav {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.menu {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0;
-}
-
-.menu li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-}
-
-.menu li a:hover {
-    text-decoration: underline;
-}
-
 
 .container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto; /* Center horizontally */
-    text-align: left;
+    max-width: var(--max-w);
+    margin: 0 auto;
 }
 
-.main-title {
-    text-align: center;
+/* ---- Header ---- */
+header {
+    margin-bottom: 1.4rem;
 }
 
-h1 {
-    margin-bottom: 5px;
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    margin-bottom: .2rem;
 }
 
-p {
-    font-size: 18px;
-    margin-bottom: 20px;
+.subtitle {
+    font-size: .88rem;
+    color: var(--muted);
+    margin-bottom: .45rem;
+    font-weight: 400;
 }
 
+.tagline {
+    font-size: .9rem;
+    color: var(--text);
+    margin-bottom: .85rem;
+    max-width: 580px;
+}
+
+.tagline strong {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+/* ---- Navigation ---- */
+nav {
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: .45rem 0;
+    margin-bottom: 1.6rem;
+}
+
+nav a {
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--muted);
+    text-decoration: none;
+    margin-right: 1.1rem;
+    transition: color .15s;
+}
+
+nav a:hover {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* ---- Sections ---- */
 section {
-    margin-bottom: 40px;
+    margin-bottom: 1.8rem;
+}
+
+section + section {
+    border-top: 1px solid var(--border);
+    padding-top: 1rem;
 }
 
 h2 {
-    margin-bottom: 10px;
+    font-size: .7rem;
+    font-weight: 700;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: .75rem;
 }
 
-/* Mobile first: Styles adjust for larger screens */
-@media (min-width: 768px) {
-    body {
-        padding: 40px;
-    }
+/* ---- About / Bio ---- */
+.bio p {
+    font-size: .93rem;
+    margin-bottom: .55rem;
+    max-width: 660px;
 }
 
-.unna-regular {
-  font-family: "Unna", serif;
-  font-weight: 400;
-  font-style: normal;
+.bio a {
+    color: var(--link);
 }
 
-.unna-bold {
-  font-family: "Unna", serif;
-  font-weight: 700;
-  font-style: normal;
+.more-link {
+    font-size: .85rem;
+    color: var(--muted);
+    display: inline-block;
+    margin-top: .15rem;
 }
 
-.unna-regular-italic {
-  font-family: "Unna", serif;
-  font-weight: 400;
-  font-style: italic;
+.more-link:hover { color: var(--accent); }
+
+/* Awards chips */
+.awards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .35rem;
+    margin-top: .75rem;
+    margin-bottom: .2rem;
 }
 
-.unna-bold-italic {
-  font-family: "Unna", serif;
-  font-weight: 700;
-  font-style: italic;
+.award {
+    font-size: .78rem;
+    font-weight: 500;
+    color: var(--accent);
+    background: var(--chip-bg);
+    border: 1px solid var(--chip-bd);
+    padding: .18rem .55rem;
+    border-radius: 3px;
+    white-space: nowrap;
 }
 
-/* Style for the year blocks */
+/* ---- News ---- */
+#news-items {
+    margin-bottom: .5rem;
+}
+
+.news-item {
+    display: flex;
+    gap: .65rem;
+    margin-bottom: .3rem;
+    font-size: .88rem;
+    line-height: 1.45;
+}
+
+.news-date {
+    color: var(--accent);
+    font-weight: 600;
+    font-size: .78rem;
+    min-width: 5rem;
+    padding-top: .12rem;
+    flex-shrink: 0;
+    letter-spacing: .02em;
+}
+
+.news-content {
+    flex: 1;
+    color: var(--text);
+}
+
+.log-link {
+    font-size: .83rem;
+    color: var(--muted);
+    display: inline-block;
+    margin-top: .2rem;
+}
+
+.log-link:hover { color: var(--accent); }
+
+/* ---- Publications ---- */
 .year-block {
-    margin-bottom: 20px; /* Space between years */
+    margin-bottom: .9rem;
 }
 
 .year-block h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    color: #333;
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: .45rem;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: .2rem;
 }
 
 .year-block ul {
-    list-style-type: none; /* Remove default bullets */
-    padding-left: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .year-block li {
-    margin-bottom: 8px; /* Space between publication entries */
-    font-size: 16px;
-    line-height: 1.5;
+    font-size: .87rem;
+    line-height: 1.45;
+    margin-bottom: .55rem;
+    padding-left: .8rem;
+    border-left: 2px solid transparent;
 }
 
-.year-block li strong {
-    font-weight: bold;
+.year-block li:hover {
+    border-left-color: var(--chip-bd);
 }
 
+.year-block li a {
+    color: var(--link);
+    font-weight: 500;
+}
 
-/* Link Styles: Default, Hover, and Visited */
+.year-block li a:hover {
+    text-decoration: underline;
+}
+
+.venue {
+    font-weight: 700;
+    color: var(--text);
+    font-size: .8rem;
+    letter-spacing: .01em;
+}
+
+.badge-new {
+    color: var(--accent);
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: .03em;
+}
+
+.badge-award {
+    color: var(--accent);
+    font-size: .78rem;
+    font-weight: 600;
+}
+
+/* ---- Students ---- */
+.students-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: .4rem 2rem;
+}
+
+@media (max-width: 520px) {
+    .students-grid { grid-template-columns: 1fr; }
+}
+
+.student-group h3 {
+    font-size: .72rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: .4rem;
+    margin-top: .6rem;
+}
+
+.student-group ul {
+    list-style: none;
+}
+
+.student-group li {
+    font-size: .87rem;
+    margin-bottom: .2rem;
+    line-height: 1.4;
+}
+
+.alumni-note {
+    font-size: .8rem;
+    color: var(--muted);
+}
+
+/* ---- Teaching ---- */
+.teaching-list, .service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.teaching-list li, .service-list li {
+    font-size: .87rem;
+    margin-bottom: .25rem;
+    line-height: 1.4;
+    color: var(--text);
+}
+
+.course-term {
+    color: var(--muted);
+    font-size: .8rem;
+}
+
+/* ---- Service ---- */
+.service-cols {
+    columns: 2;
+    column-gap: 2rem;
+}
+
+@media (max-width: 520px) {
+    .service-cols { columns: 1; }
+}
+
+.service-list li {
+    break-inside: avoid;
+}
+
+/* ---- Global link styles ---- */
 a {
-    color: #1e90ff; /* Default color: DodgerBlue */
+    color: var(--link);
     text-decoration: none;
 }
 
 a:hover {
-    color: #4169e1; /* Hover color: RoyalBlue */
     text-decoration: underline;
 }
 
 a:visited {
-    color: #4682b4; /* Visited color: SteelBlue */
+    color: var(--visited);
+}
+
+/* ---- Responsive padding ---- */
+@media (min-width: 600px) {
+    body { padding: 2rem 2rem; }
+}
+
+@media (min-width: 900px) {
+    body { padding: 2.5rem 3rem; }
+}
+
+/* ---- Awards section ---- */
+.awards-list {
+    list-style: none;
+    padding: 0;
+}
+
+.awards-list li {
+    font-size: .87rem;
+    margin-bottom: .3rem;
+    line-height: 1.45;
+}
+
+.awards-list li strong {
+    color: var(--accent);
+}
+
+/* ---- Inner-page shared header (ecology, longer-blurb) ---- */
+.page-header {
+    margin-bottom: 1.4rem;
+}
+
+.page-header h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -.01em;
+    margin-bottom: .15rem;
+}
+
+.page-header .back-link {
+    font-size: .82rem;
+    color: var(--muted);
+}
+
+.page-header .back-link:hover {
+    color: var(--accent);
+}
+
+.prose h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1.2rem;
+    margin-bottom: .4rem;
+    color: var(--text);
+}
+
+.prose h3 {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-top: .9rem;
+    margin-bottom: .3rem;
+    color: var(--text);
+}
+
+.prose p {
+    font-size: .93rem;
+    margin-bottom: .6rem;
+    max-width: 660px;
 }

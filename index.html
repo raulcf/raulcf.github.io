@@ -1,705 +1,636 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30941069-2"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-30941069-2');
-</script>
-
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Raul Castro Fernandez</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30941069-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-30941069-2');
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="main-title">
-            <h1>Raul Castro Fernandez</h1>
-        </div>
+<div class="container">
 
-        <div class="main-title">
-            <p>Assistant Professor. Computer and Data Scientist at The University of Chicago</p>
-            <p><span style="color: #800000;"><strong>Data ecology studies 
-how data shapes our world so we can design better data ecosystems. </strong></span>  
+    <!-- ======================================================
+         HEADER
+    ====================================================== -->
+    <header>
+        <h1>Raul Castro Fernandez</h1>
+        <p class="subtitle">Assistant Professor of Computer Science &middot; University of Chicago &middot; Chief Research Officer, Invocate</p>
+        <p class="tagline"><strong>Data ecology</strong> studies how data shapes our world so we can design better data ecosystems.</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#news">News</a>
+            <a href="#publications">Publications</a>
+            <a href="#students">Students</a>
+            <a href="#teaching">Teaching</a>
+            <a href="#service">Service</a>
+            <a href="#awards">Awards</a>
+            <a href="http://raulcastrofernandez.com/blog">Blog</a>
+            <a href="http://raulcastrofernandez.com/bio.txt">Bio</a>
+        </nav>
+    </header>
+
+    <!-- ======================================================
+         ABOUT
+    ====================================================== -->
+    <section id="about">
+        <h2>About</h2>
+
+        <div class="bio">
+            <p>
+                I'm Raul Castro Fernandez, an <a href="https://computerscience.uchicago.edu/people/raul-castro-fernandez/" target="_blank" rel="noopener">Assistant Professor of Computer Science</a> at the <a href="https://www.uchicago.edu" target="_blank" rel="noopener">University of Chicago</a> and co-founder and Chief Research Officer at <strong>Invocate</strong>. I originated the concept of <a href="https://raulcastrofernandez.com/ecology.html" target="_blank" rel="noopener"><strong>data ecology</strong></a>, which frames my research on how data moves through and transforms technological, economic, and social systems — and how we can design interventions (technical, economic, and social) to make those ecosystems more valuable, equitable, and resilient.
             </p>
+            <p>
+                I lead work in <a href="https://raulcastrofernandez.com/ecology.html" target="_blank" rel="noopener">data ecology</a>, data discovery, and related areas such as <a href="https://raulcastrofernandez.com/papers/1323-castrofernandez.pdf" target="_blank" rel="noopener">data markets</a> and data integration. My group develops both theory and systems that help people and organizations find, evaluate, and use data effectively.
+            </p>
+            <p>
+                I co-lead the <a href="https://datascience.uchicago.edu/research/data-ecology/" target="_blank" rel="noopener">Data Ecology research initiative</a> at the <a href="https://datascience.uchicago.edu/" target="_blank" rel="noopener">Data Science Institute</a>, and I co-run <a href="https://datascience.uchicago.edu/outreach/industry-partnerships/chicago-data-night/" target="_blank" rel="noopener">Chicago Data Night</a>, a forum that brings together industry and academia in Chicago.
+            </p>
+
+            <!-- Top three most selective awards -->
+            <div class="awards">
+                <span class="award">&#9733; Sloan Research Fellowship (2025)</span>
+                <span class="award">&#9733; NSF CAREER Award (2024)</span>
+                <span class="award">&#9733; SIGMOD Test-of-Time Award (2023)</span>
+            </div>
+
+            <a class="more-link" href="https://raulcastrofernandez.com/longer-blurb.html">Research overview &amp; longer bio &rarr;</a>
+        </div>
+    </section>
+
+    <!-- ======================================================
+         NEWS  — auto-loaded from news.md
+         To add a news item: edit news.md and push.
+         Format each line as: - **MON'YY** Your update text [link text](url)
+    ====================================================== -->
+    <!-- ======================================================
+         NEWS — edit news.md and push; the live site fetches it automatically.
+         The items below are a static pre-population so the section is never
+         blank (e.g. when viewing locally). They are silently replaced by the
+         JS fetch on any HTTP server.
+    ====================================================== -->
+    <section id="news">
+        <h2>News</h2>
+        <div id="news-items">
+            <div class="news-item"><span class="news-date">APR'26</span><span class="news-content">Presented at the AImpact Workshop at UIUC</span></div>
+            <div class="news-item"><span class="news-date">FEB'26</span><span class="news-content">Presented Data Ecology and Data Markets work at M3 Workshop</span></div>
+            <div class="news-item"><span class="news-date">JAN'26</span><span class="news-content">Presented the <a href="./papers/pneuma-cidr26.pdf">Pneuma Project</a> at CIDR</span></div>
+            <div class="news-item"><span class="news-date">SEP'25</span><span class="news-content">Named Distinguished Associate Editor for VLDB. Co-chaired the <a href="https://vldb.org/2025/?call-for-phd-workshop">PhD Workshop at VLDB'25</a></span></div>
+            <div class="news-item"><span class="news-date">AUG'25</span><span class="news-content">Speaker at the <a href="https://sites.google.com/ttic.edu/incentivesdatasharing/home?authuser=0">Incentives for Collaborative Learning and Data Sharing — TTIC Summer Workshop</a></span></div>
+            <div class="news-item"><span class="news-date">FEB'25</span><span class="news-content">Named <a href="https://sloan.org/fellowships/2025-fellows">Sloan Research Fellow</a></span></div>
+            <div class="news-item"><span class="news-date">JAN'25</span><span class="news-content">Talk on data ecology at the AI/ML Affinity group at the US Census Bureau</span></div>
+        </div>
+        <a class="log-link" href="http://www.raulcastrofernandez.com/log">Full activity log &rarr;</a>
+    </section>
+
+    <!-- ======================================================
+         PUBLICATIONS
+    ====================================================== -->
+    <section id="publications">
+        <h2>Publications</h2>
+
+        <div class="year-block">
+            <h3>2026</h3>
+            <ul>
+                <li>
+                    <a href="./papers/pneuma-cidr26.pdf">The Pneuma Project: Reifying Information Needs as Relational Schemas to Automate Discovery, Guide Preparation, and Align Data with Intent.</a>
+                    Muhammad Imam Luthfi Balaka, Raul Castro Fernandez.
+                    <span class="venue">CIDR 2026</span> <span class="badge-new">New</span>
+                </li>
+                <li>
+                    <a href="https://link.springer.com/article/10.1007/s00778-025-00961-5">Programmable Dataflows: Abstraction and Programming Model for Data Sharing.</a>
+                    Siyuan Xia, Chris Zhu, Tapan Srivastava, Bridget Fahey, Raul Castro Fernandez.
+                    <span class="venue">PVLDB Journal 2026</span> <span class="badge-new">New</span>
+                </li>
+                <li>
+                    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5129700">The Structural Law of Data.</a>
+                    Bridget Fahey, Raul Castro Fernandez.
+                    <span class="venue">The University of Chicago Law Review 2026</span> <span class="badge-new">New</span>
+                </li>
+            </ul>
         </div>
 
-    <nav>
-        <ul class="menu">
-            <li><a href="#news">NEWS</a></li>
-            <li><a href="#publications">PUBLICATIONS</a></li>
-            <li><a href="#students">STUDENTS</a></li>
-            <li><a href="#teaching">TEACHING</a></li>
-            <li><a href="#service">SERVICE</a></li>
-            <li><a href="http://raulcastrofernandez.com/blog">BLOG</a></li>
-            <li><a href="http://raulcastrofernandez.com/bio.txt">BIO</a></li>
-        </ul>
-    </nav>
+        <div class="year-block">
+            <h3>2025</h3>
+            <ul>
+                <li>
+                    <a href="https://dl.acm.org/doi/10.1145/3728476">What is the Value of Data?: A Theory and Systematization.</a>
+                    Raul Castro Fernandez.
+                    <span class="venue">ACM/IMS Journal of Data Science 2025</span>
+                </li>
+                <li>
+                    <a href="http://sites.computer.org/debull/A25sep/p4.pdf">Data Discovery is a Socio-Technical Problem: the Path from Document Identification and Retrieval to Data Ecology.</a>
+                    Raul Castro Fernandez.
+                    <span class="venue">IEEE Data Engineering Bulletin 2025</span>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2501.09557">Core Hours and Carbon Credits: Incentivizing Sustainability in HPC.</a>
+                    Alok Kamatar, Maxime Gonthier, Val&eacute;rie Hayot-Sasson, Andr&eacute; Bauer, Marcin Copik, Torsten Hoefler, Raul Castro Fernandez, Kyle Chard, Ian T. Foster.
+                    <span class="venue">SC 2025</span>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/pdf/2504.09207">Pneuma: Leveraging LLMs for Tabular Data Representation and Retrieval in an End-to-End System.</a>
+                    Muhammad Imam Luthfi Balaka, David Alexander, Qiming Wang, Yue Gong, Adila Krisnadhi, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2025</span>
+                </li>
+                <li>
+                    <a href="https://sigmodrecord.org/publications/sigmodRecord/2512/pdfs/06_Dbrainstorming_CastroFernandez.pdf">Data Ecology: Understanding and Designing Data Ecosystems.</a>
+                    Raul Castro Fernandez.
+                    <span class="venue">SIGMOD Record (DBrainstorming) 2025</span>
+                </li>
+                <li>
+                    <a href="https://link.springer.com/chapter/10.1007/978-3-032-11402-0_5">Mass-Scale Analysis of In-the-Wild Conversations Reveals Complexity Bounds on LLM Jailbreaking.</a>
+                    Aldan Creo, Raul Castro Fernandez, Manuel Cebrian.
+                    <span class="venue">SGAI-AI 2025</span>
+                </li>
+                <li>
+                    <a href="https://dl.acm.org/doi/10.1145/3735091.3737532">Not-So-Bitter Pill to Swallow: Slipstreaming Memory Safe Programming via Rust as part of a Database Systems Course.</a>
+                    Mohammed Suhail Rehman, Aaron Elmore, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2025</span>
+                </li>
+            </ul>
+        </div>
 
+        <div class="year-block">
+            <h3>2024</h3>
+            <ul>
+                <li>
+                    <a href="./papers/arachne-vldb24.pdf">Saving Money for Analytical Workloads in the Cloud.</a>
+                    Tapan Srivastava, Raul Castro Fernandez.
+                    <span class="venue">VLDB 2024</span>
+                </li>
+                <li>
+                    <a href="./papers/solo-sigmod24.pdf">Solo: Data Discovery Using Natural Language Questions Via A Self-Supervised Approach.</a>
+                    Qiming Wang, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2024</span>
+                </li>
+                <li>
+                    <a href="./papers/nexus-sigmod24.pdf">Nexus: Correlation Discovery over Collections of Spatio-Temporal Tabular Data.</a>
+                    Yue Gong, Sainyam Galhotra, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2024</span>
+                </li>
+                <li>
+                    <a href="./papers/cackle-sigmod24.pdf">Cackle: Analytical Workload Cost and Performance Stability with Elastic Pools.</a>
+                    Matthew Perron, Raul Castro Fernandez, David DeWitt, Michael Cafarella, Samuel Madden.
+                    <span class="venue">SIGMOD 2024</span>
+                </li>
+                <li>
+                    <a href="./papers/sigmod24-tutorial.pdf">Responsible Sharing of Spatiotemporal Data.</a>
+                    Raul Castro Fernandez, Arnab Nandi.
+                    <span class="venue">SIGMOD 2024 (Tutorial)</span>
+                </li>
+                <li>
+                    <a href="./papers/Ver_SIGMOD_24_Demo.pdf">Demonstration of Ver: View Discovery in the Wild.</a>
+                    Kevin Dharmawan, Chirag Kawediya, Yue Gong, Zaki Indra Yudhistira, Zhiru Zhu, Sainyam Galhotra, Adila Alfa Krisnadhi, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2024 (Demo)</span>
+                </li>
+                <li>
+                    <a href="./papers/Nexus_SIGMOD_24_Demo.pdf">Demonstrating Nexus for Correlation Discovery over Collections of Spatio-Temporal Tabular Data.</a>
+                    Yue Gong, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2024 (Demo)</span>
+                </li>
+            </ul>
+        </div>
 
-    <section aria-labelledby="bio-title">
-    <h2 id="bio-title">About</h2>
+        <div class="year-block">
+            <h3>2023</h3>
+            <ul>
+                <li>
+                    <a href="./papers/llm_db_vision_vldb23-11.pdf">How Large Language Models Will Disrupt Data Management.</a>
+                    Raul Castro Fernandez, Aaron Elmore, Michael Franklin, Sanjay Krishnan, Chenhao Tan.
+                    <span class="venue">VLDB 2023</span>
+                </li>
+                <li>
+                    Data and AI Model Markets: Grand Opportunities for Data and Model Sharing, Discovery, and Integration.
+                    Jian Pei, Raul Castro Fernandez, Xiaohui Yu.
+                    <span class="venue">VLDB 2023 (Tutorial)</span>
+                </li>
+                <li>
+                    <a href="./papers/saibot_vldb_2023.pdf">Saibot: A Differentially Private Data Search Platform.</a>
+                    Zezhou Huang, Jiaxiang Liu, Daniel Gbenga Alabi, Raul Castro Fernandez, Eugene Wu.
+                    <span class="venue">VLDB 2023</span>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2306.02543">Addressing Budget Allocation and Revenue Allocation in Data Market Environments Using an Adaptive Sampling Algorithm.</a>
+                    Boxin Zhao, Boxiang Lyu, Raul Castro Fernandez, Mladen Kolar.
+                    <span class="venue">ICML 2023</span>
+                </li>
+                <li>
+                    <a href="./papers/data-sharing-consortia-escrow.pdf">Data-Sharing Markets: Model, Protocol, and Algorithms to Incentivize the Formation of Data-Sharing Consortia.</a>
+                    Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2023</span>
+                </li>
+                <li>
+                    <a href="./papers/metam.pdf">Metam: Goal-Oriented Data Discovery.</a>
+                    Sainyam Galhotra, Yue Gong, Raul Castro Fernandez.
+                    <span class="venue">ICDE 2023</span>
+                </li>
+                <li>
+                    <a href="./papers/ver.pdf">Ver: View-Discovery in the Wild.</a>
+                    Yue Gong, Zhiru Zhu, Sainyam Galhotra, Raul Castro Fernandez.
+                    <span class="venue">ICDE 2023</span>
+                </li>
+            </ul>
+        </div>
 
-        <p>
-        I’m Raul Castro Fernandez, an <a
-href="https://computerscience.uchicago.edu/people/raul-castro-fernandez/"
-target="_blank" rel="noopener">Assistant Professor of Computer Science</a> at
-the <a href="https://www.uchicago.edu" target="_blank" rel="noopener">University
-of Chicago</a> and co-founder and Chief Research Officer at
-<strong>invocate</strong>.  I originated the concept of <a
-href="https://raulcastrofernandez.com/ecology.html" target="_blank"
-rel="noopener"><strong>data ecology</strong></a>, which frames my research on
-how data moves through and transforms technological, economic, and social
-systems—and how we can design interventions (technical, economic, and social) to
-make those ecosystems more valuable, equitable, and resilient.  
-        </p>
+        <div class="year-block">
+            <h3>2022</h3>
+            <ul>
+                <li>
+                    <a href="./papers/data_station_paper-11.pdf">Data Station: Delegated, Trustworthy, and Auditable Computation to Enable Data-Sharing Consortia with a Data Escrow.</a>
+                    Siyuan Xia, Zhiru Zhu, Chris Zhu, Jinjin Zhao, Kyle Chard, Aaron Elmore, Ian Foster, Michael Franklin, Sanjay Krishnan, Raul Castro Fernandez.
+                    <span class="venue">VLDB 2022</span>
+                </li>
+                <li>
+                    <a href="./papers/7_31CRstatusofDataMarkets_final.pdf">Revisiting Online Data Markets in 2022. A Seller and Buyer Perspective.</a>
+                    Javen Kennedy, Pranav Subramaniam, Sainyam Galhotra, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD Record</span>
+                </li>
+                <li>
+                    <a href="./papers/19130-Final PDF-23138-1-10-20220414.pdf">Enabling AI Innovation via Data and Model Sharing: An Overview of the NSF Convergence Accelerator Track D.</a>
+                    Several authors.
+                    <span class="venue">AI Magazine</span>
+                </li>
+                <li>
+                    <a href="./papers/protecting-data-markets-sigmod22.pdf">Protecting Data Markets from Strategic Buyers.</a>
+                    Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2022</span>
+                </li>
+                <li>
+                    <a href="./papers/leva-sigmod22.pdf">Leva: Boosting Machine Learning Performance with Relational Embedding Data Augmentation.</a>
+                    Alex Zhao, Raul Castro Fernandez.
+                    <span class="venue">SIGMOD 2022</span>
+                </li>
+            </ul>
+        </div>
 
-        <p>
-    I lead work in <a href="https://raulcastrofernandez.com/ecology.html"
-target="_blank" rel="noopener">data ecology</a>, data discovery, and related areas such as <a
-href="https://raulcastrofernandez.com/papers/1323-castrofernandez.pdf"
-target="_blank" rel="noopener">data markets</a> and data integration.  My group
-develops both theory and systems that help people and organizations find,
-evaluate, and use data effectively.
-        </p>
+        <div class="year-block">
+            <h3>2020</h3>
+            <ul>
+                <li>
+                    <a href="./papers/1323-castrofernandez.pdf">Data Market Platforms: Trading Data Assets to Solve Data Problems.</a>
+                    Raul Castro Fernandez, Pranav Subramaniam, Michael Franklin.
+                    <span class="venue">VLDB 2020</span>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/2003.09758">ARDA: Automatic Relational Data Augmentation for Machine Learning.</a>
+                    Nadiia Chepurko, Ryan Marcus, Emanuel Zgraggen, Raul Castro Fernandez, Tim Kraska, David Karger.
+                    <span class="venue">VLDB 2020</span>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/1911.11727">Starling: A Scalable Query Engine on Cloud Function Services.</a>
+                    Matt Perron, Raul Castro Fernandez, David DeWitt, Samuel Madden.
+                    <span class="venue">SIGMOD 2020</span>
+                </li>
+                <li>
+                    <a href="./papers/cidr2020.pdf">A System for Studying Deep Network Training.</a>
+                    Raul Castro Fernandez.
+                    <span class="venue">CIDR 2020 (Abstract)</span>
+                </li>
+            </ul>
+        </div>
 
-        <p>
-    I’ve been honored with the <a href="https://sigmod.org/sigmod-awards/"
-target="_blank" rel="noopener"><strong>SIGMOD Test-of-Time Award</strong>
-(2023)</a>, an <a href="https://www.nsf.gov/career/" target="_blank"
-rel="noopener"><strong>NSF CAREER Award</strong> (2024)</a>, and a <a
-href="https://sloan.org/fellowships" target="_blank"
-rel="noopener"><strong>Sloan Research Fellowship</strong> (2025)</a>.  I co-lead
-the <a href="https://datascience.uchicago.edu/research/data-ecology/"
-target="_blank" rel="noopener">Data Ecology research initiative</a> at the <a
-href="https://datascience.uchicago.edu/" target="_blank" rel="noopener">Data
-Science Institute</a>, and I co-run <a
-href="https://datascience.uchicago.edu/outreach/industry-partnerships/chicago-data-night/"
-target="_blank" rel="noopener">Chicago Data Night</a>, a forum that brings
-together industry and academia in Chicago.  
-        </p>
+        <div class="year-block">
+            <h3>2019</h3>
+            <ul>
+                <li>
+                    <a href="./papers/lazo_icde19_cr_verified.pdf">Lazo: A Cardinality-Based Method for Coupled Estimation of Jaccard Similarity and Containment.</a>
+                    Raul Castro Fernandez, Jisoo Min, Demitri Devada, Samuel Madden.
+                    <span class="venue">ICDE 2019</span>
+                </li>
+                <li>
+                    <a href="https://arxiv.org/abs/1903.05008">Termite: A System for Tunneling Through Heterogeneous Data.</a>
+                    Raul Castro Fernandez, Samuel Madden.
+                    <span class="venue">AIDM@SIGMOD 2019</span>
+                </li>
+                <li>
+                    <a href="./papers/raha.pdf">Raha: A Configuration-Free Error Detection System.</a>
+                    Mohammad Mahdavi, Ziawasch Abedjan, Raul Castro Fernandez, Sam Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang.
+                    <span class="venue">SIGMOD 2019</span>
+                </li>
+                <li>
+                    <a href="https://dl.acm.org/citation.cfm?id=3226631">Aurum: A Story About Research Taste.</a>
+                    Raul Castro Fernandez.
+                    <span class="venue">Making Databases Work. ACM Morgan &amp; Claypool. 2019</span>
+                </li>
+            </ul>
+        </div>
 
+        <div class="year-block">
+            <h3>2018</h3>
+            <ul>
+                <li>
+                    <a href="./papers/icde18-aurum.pdf">Aurum: A Data Discovery System.</a>
+                    Raul Castro Fernandez, Ziawasch Abedjan, Famien Koko, Gina Yuan, Samuel Madden, Michael Stonebraker.
+                    <span class="venue">ICDE 2018</span>
+                </li>
+                <li>
+                    <a href="./papers/icde18-seeping.pdf">Seeping Semantics: Linking Datasets using Word Embeddings for Data Discovery.</a>
+                    Raul Castro Fernandez, Essam Mansour, Abdulhakim Qahtan, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang.
+                    <span class="venue">ICDE 2018</span>
+                </li>
+                <li>
+                    <a href="./papers/sigmod18-mdf.pdf">Meta-Dataflows: Efficient Exploratory Dataflow Jobs.</a>
+                    Raul Castro Fernandez, William Culhane, Pijika Watcharapichat, Matthias Weidlich, Victoria Lopez Morales, Peter Pietzuch.
+                    <span class="venue">SIGMOD 2018</span>
+                </li>
+                <li>
+                    <a href="./papers/icde18-xtructure.pdf">Extracting Syntactical Patterns from Databases.</a>
+                    Andrew Ilyas, Joana M. F. da Trindade, Raul Castro Fernandez, Samuel Madden.
+                    <span class="venue">ICDE 2018</span>
+                </li>
+                <li>
+                    <a href="./papers/kdd18-fahes.pdf">FAHES: A Robust Disguised Missing Values Detector.</a>
+                    Mourad Ouzzani, Nan Tang, Ahmed Elmagarmid, Raul Castro Fernandez, Abdulhakim A. Qahtan.
+                    <span class="venue">KDD 2018</span>
+                </li>
+                <li>
+                    <a href="./papers/icde2018-demo-civilizer.pdf">Building Data Civilizer Pipelines with an Advanced Workflow Engine.</a>
+                    Essam Mansour, Dong Deng, Raul Castro Fernandez, Abdulhakim Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang.
+                    <span class="venue">ICDE 2018 (Demo)</span>
+                </li>
+            </ul>
+        </div>
 
-    <p><a href="https://raulcastrofernandez.com/longer-blurb.html">Take a look here if you want to read a bit
-more about my bio</a></p>
+        <div class="year-block">
+            <h3>2017</h3>
+            <ul>
+                <li>
+                    <a href="./papers/vldb17-quill.pdf">Quill: Efficient, Transferable, and Rich Analytics at Scale.</a>
+                    Badrish Chandramouli, Raul Castro Fernandez, Jonathan Goldstein, Ahmed Eldawy, Abdul Quamar.
+                    <span class="venue">VLDB 2017</span>
+                </li>
+                <li>
+                    <a href="./papers/cidr17-civilizer.pdf">The Data Civilizer System.</a>
+                    Dong Deng, Raul Castro Fernandez, Ziawasch Abedjan, Sibo Wang, Michael Stonebraker, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Nan Tang.
+                    <span class="venue">CIDR 2017</span>
+                </li>
+                <li>
+                    <a href="./papers/sigmod2017-demo-civilizer.pdf">A Demo of the Data Civilizer System.</a>
+                    Raul Castro Fernandez, Dong Deng, Essam Mansour, Abdulhakim A Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang.
+                    <span class="venue">SIGMOD 2017 (Demo)</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="year-block">
+            <h3>2016</h3>
+            <ul>
+                <li>
+                    <a href="./papers/socc16-ako.pdf">Ako: Decentralised Deep Learning with Partial Gradient Exchange.</a>
+                    Pijika Watcharapichat, Victoria Lopez Morales, Raul Castro Fernandez, Peter Pietzuch.
+                    <span class="venue">SoCC 2016</span>
+                </li>
+                <li>
+                    <a href="./papers/vldb16-detectingerrors.pdf">Detecting Data Errors: Where are we and what needs to be done?</a>
+                    Ziawasch Abedjan, Xu Chu, Dong Deng, Raul Castro Fernandez, Ihab F. Ilyas, Mourad Ouzzani, Paolo Papotti, Michael Stonebraker, Nan Tang.
+                    <span class="venue">VLDB 2016</span>
+                </li>
+                <li>
+                    <a href="./papers/sigmod16-workshop-aurum.pdf">Towards Large-Scale Data Discovery.</a>
+                    Raul Castro Fernandez, Ziawasch Abedjan, Samuel Madden, Michael Stonebraker.
+                    <span class="venue">ExploreDB@SIGMOD 2016</span>
+                </li>
+                <li>
+                    <a href="./papers/sigmod16-saber.pdf">SABER: Window-Based Hybrid Stream Processing for Heterogeneous Architectures.</a>
+                    Alexandros Koliousis, Matthias Weidlich, Raul Castro Fernandez, Paolo Costa, Alexander Wolf, Peter Pietzuch.
+                    <span class="venue">SIGMOD 2016</span>
+                </li>
+                <li>
+                    <a href="./papers/icde16-demo-java2sdg.pdf">Java2SDG: Stateful Big Data Processing for the Masses.</a>
+                    Raul Castro Fernandez, Panagiotis Garefalakis, Peter Pietzuch.
+                    <span class="venue">ICDE 2016 (Demo)</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="year-block">
+            <h3>2015</h3>
+            <ul>
+                <li>
+                    <a href="./papers/cidr15-liquid.pdf">Liquid: Unifying Nearline and Offline Big Data Integration.</a>
+                    Raul Castro Fernandez, Peter Pietzuch, Joel Koshy, Jay Kreps, Dong Lin, Neha Narkhede, Jun Rao, Chris Riccomini, Guozhang Wang.
+                    <span class="venue">CIDR 2015</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="year-block">
+            <h3>2014</h3>
+            <ul>
+                <li>
+                    <a href="./papers/atc14-sgd.pdf">Making State Explicit for Imperative Big Data Processing.</a>
+                    Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki and Peter Pietzuch.
+                    <span class="venue">USENIX ATC 2014</span>
+                </li>
+                <li>
+                    <a href="./papers/debs14_seep_gc14.pdf">Grand Challenge: Scalable Stateful Stream Processing for Smart Grids.</a>
+                    Raul Castro Fernandez, Matthias Weidlich, Peter Pietzuch and Avigdor Gal.
+                    <span class="venue">DEBS 2014</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="year-block">
+            <h3>2013</h3>
+            <ul>
+                <li>
+                    <a href="./papers/sigmod13-seep.pdf">Integrating Scale Out and Fault Tolerance in Stream Processing using Operator State Management.</a>
+                    Raul Castro Fernandez, Matteo Migliavacca, Evangelia Kalyvianaki and Peter Pietzuch.
+                    <span class="venue">SIGMOD 2013</span>
+                    <span class="badge-award">&#9733; <a href="https://sigmod.org/sigmod-awards/sigmod-test-of-time-award/">SIGMOD 2023 Test-of-Time Award</a></span>
+                </li>
+                <li>
+                    Towards Low-Latency and In-Memory Large-Scale Data Processing.
+                    Raul Castro Fernandez and Peter Pietzuch.
+                    <span class="venue">PhD Workshop@DEBS 2013</span>
+                </li>
+            </ul>
+        </div>
 
     </section>
 
-
-
-
-
-    </div>
-
-    <div class="container">
-        <section id="news">
-            <h2>NEWS</h2>
-            <p><span style="color: #800000;"><strong>AUGUST'25</strong></span> 
-            Speaker at the <a
-href="https://sites.google.com/ttic.edu/incentivesdatasharing/home?authuser=0">Incentives
-for Collaborative Learning and Data Sharing. TTIC Summer Workshop</a></p>
-
-
-            <p><span style="color: #800000;"><strong>FEBRUARY'25</strong></span> 
-            Named <a href="https://sloan.org/fellowships/2025-fellows">Sloan
-Research Fellow</a></p>
-
-            <p><span style="color: #800000;"><strong>JANUARY'25</strong></span> 
-            Talk on data ecology at the AI/ML Affinity group at the US Census
-Bureau</p>
-
-            <p><span style="color: #800000;"><strong>JANUARY'25</strong></span> 
-            <a href="https://www.manuelcebrian.com/">Manuel Cebrian</a> visited our group
-            </p>
-
-            <p><span style="color: #800000;"><strong>NOVEMBER'24</strong></span> 
-            Talks on data ecology at the Harris School of Public Policy, on data
-discovery at GSL@Microsoft, and on data sharing at an <a href="https://www.ideal-institute.org/2024/11/08/fairness-in-generative-ai-protecting-and-compensating-content-producers/">IDEAL
-workshop.</a>
-            </p>
-
-
-            <p><span style="color: #800000;"><strong>OCTOBER'24</strong></span> <a href="https://www.safeinsights.org">New Safeinsights project</a> Safeinsights project kick-off meeting </p>
-
-            <p>See a <a href="http://www.raulcastrofernandez.com/log">log</a> of all updates</p>
-        </section>
-
-        <section id="publications">
-            <h2>PUBLICATIONS</h2>
-            <p>Here you will find a list of our publications.</p>
-
-
-            <div class="year-block">
-                <h3>2026</h3>
-                    <ul>
-                    <li>
-<strong><a href="./papers/pneuma-cidr26.pdf">The Pneuma Project: Reifying Information Needs as Relational
-Schemas to Automate Discovery, Guide Preparation, and Align Data with
-Intent.</a></strong> Muhammad Imam Luthfi Balaka,Raul Castro Fernandez
-<strong>CIDR 2026</strong> <strong> <span
-style='color:red;'>(New)</span></strong>
-                    </li>
-
-                    <li>
-<strong><a href="https://link.springer.com/article/10.1007/s00778-025-00961-5">Programmable Dataflows: Abstraction and Programming Model for
-Data Sharing.</a></strong> Siyuan Xia, Chris Zhu, Tapan Srivastava, Bridget
-Fahey, Raul Castro Fernandez
-<strong>PVLDB Journal 2026</strong> <strong> <span
-style='color:red;'>(New)</span></strong>
-                    </li>
-
-                    <li>
-<strong><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5129700">The Structural Law of Data.</a></strong> Bridget Fahey, Raul Castro Fernandez
-<strong>The University of Chicago Law Review 2026</strong> <strong> <span
-style='color:red;'>(New)</span></strong>
-                    </li>
-
-                    </ul>
-            </div>
-
-
-            <div class="year-block">
-                <h3>2025</h3>
-                    <ul>
-
-                    <li>
-<strong><a href="https://dl.acm.org/doi/10.1145/3728476">What is the Value of Data?: A Theory and Systematization.</a></strong> Raul Castro Fernandez
-<strong>ACM/IMS Journal of Data Science 2025</strong> <strong> <span
-style='color:red;'></span></strong>
-                    </li>
-
-                    <li>
-<strong><a href="http://sites.computer.org/debull/A25sep/p4.pdf">Data Discovery is a Socio-Technical Problem: the Path from Document Identification and Retrieval to Data Ecology.</a></strong> Raul Castro Fernandez
-<strong>IEEE Data Engineering Bulletin 2025</strong> <strong> <span
-style='color:red;'></span></strong>
-                    </li>
-
-                    <li>
-<strong><a href="https://arxiv.org/abs/2501.09557">Core Hours and Carbon Credits: Incentivizing Sustainability
-in HPC.</a></strong> Alok Kamatar, Maxime Gonthier, Valérie Hayot-Sasson, André
-Bauer, Marcin Copik, Torsten Hoefler, Raul Castro Fernandez, Kyle Chard, Ian T.
-Foster. <strong>SC 2025</strong> 
-                    </li>
-
-
-                    <li>
-<strong><a href="https://arxiv.org/pdf/2504.09207">Pneuma: Leveraging LLMs for Tabular Data Representation and
-Retrieval in an End-to-End System.</a></strong> Muhammad Imam Luthfi Balaka,
-David Alexander, Qiming Wang, Yue Gong, Adila Krisnadhi, Raul Castro Fernandez
-<strong>SIGMOD 2025</strong> <strong> <span
-style='color:red;'></span></strong>
-                    </li>
-
-                    <li>
-<strong><a
-href="https://sigmodrecord.org/publications/sigmodRecord/2512/pdfs/06_Dbrainstorming_CastroFernandez.pdf">Data
-Ecology: Understanding and Designing Data Ecosystems.</a></strong> Raul Castro Fernandez
-<strong>SIGMOD Record (DBrainstorming column) 2025</strong> <strong> <span
-style='color:red;'></span></strong>
-                    </li>
-
-
-                    <li>
-<strong><a
-href="https://link.springer.com/chapter/10.1007/978-3-032-11402-0_5">Mass-Scale
-Analysis of In-the-Wild Conversations Reveals Complexity Bounds on LLM
-Jailbreaking.</a></strong> Aldan Creo, Raul Castro Fernandez, Manuel Cebrian <strong>SGAI-AI 2025</strong> <strong> <span
-style='color:red;'></span></strong>
-                    </li>
-
-
-
-                    <li>
-<strong><a href="https://dl.acm.org/doi/10.1145/3735091.3737532">Not-So-Bitter Pill to Swallow: Slipstreaming Memory Safe Programming via Rust as part of a Database Systems Course.</a></strong> Mohammed Suhail Rehman, Aaron Elmore, Raul Castro Fernandez <strong>SIGMOD 2025</strong> <strong> <span
-style='color:red;'></span></strong>
-                    </li>
-
-
-            </ul>
-
-            </div>
-
-            <div class="year-block">
-                <h3>2024</h3>
-                    <ul>
-
-                    <li>
-<strong><a href="./papers/arachne-vldb24.pdf">Saving Money for Analytical
-Workloads in the Cloud.</a></strong> Tapan Srivastava, Raul Castro Fernandez
-<strong>VLDB 2024</strong> <strong> <span
-style='color:red;'></span></strong>
-                    </li>
-                    <li>
-<strong><a href="./papers/solo-sigmod24.pdf">Solo: Data Discovery Using Natural Language Questions Via A Self-Supervised Approach.</a></strong> Qiming Wang, Raul Castro Fernandez <strong>SIGMOD 2024</strong>
-
-                    </li>
-
-                    <li>
-<strong><a
-href="./papers/nexus-sigmod24.pdf">Nexus: Correlation Discovery over
-Collections of Spatio-Temporal Tabular Data.</a></strong> Yue Gong, Sainyam
-Galhotra, Raul Castro Fernandez <strong>SIGMOD 2024</strong> 
-                    </li>
-
-                    <li>
-                    <strong><a
-href="./papers/cackle-sigmod24.pdf">Cackle: Analytical Workload Cost and
-Peformance Stability with Elastic Pools.</a></strong> Matthew Perron, Raul
-Castro Fernandez, David DeWitt, Michael Cafarella, Samuel Madden <strong>SIGMOD 2024</strong> 
-                    <li>
-                    <li>
-                    <strong><a
-href="./papers/sigmod24-tutorial.pdf">Responsible Sharing of Spatiotemporal Data</a></strong> Raul
-Castro Fernandez, Arnab Nandi <strong>SIGMOD 2024 (Tutorial)</strong> 
-                    <li>
-
-                    <li>
-                    <strong><a
-href="./papers/Ver_SIGMOD_24_Demo.pdf">Demonstration of Ver: View Discovery in
-the Wild</a></strong> Kevin Dharmawan, Chirag Kawediya, Yue Gong, Zaki Indra
-Yudhistira, Zhiru Zhu, Sainyam Galhotra, Adila Alfa Krisnadhi, Raul Castro
-Fernandez<strong> SIGMOD 2024 (Demo)</strong> 
-
-                    </li>
-
-                    <li>
-                    <strong><a
-href="./papers/Nexus_SIGMOD_24_Demo.pdf">Demonstrating Nexus for Correlation
-Discovery over Collections of Spatio-Temporal Tabular Data</a></strong> Yue
-Gong, Raul Castro Fernandez <strong>SIGMOD 2024 (Demo)</strong> 
-                    </li>
-
-                    </ul>
-
-                </div>
-                <div class="year-block">
-
-                    <h3>2023</h3>
-
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/llm_db_vision_vldb23-11.pdf">How Large Language Models Will Disrupt Data
-Management.</a></strong> Raul Castro Fernandez, Aaron Elmore, Michael Franklin,
-Sanjay Krishnan, Chenhao Tan. <strong>VLDB 2023</strong> 
-                    </li>
-                    <li>
-                    <strong>Data and AI Model Markets: Grand Opportunities for
-Data and Model Sharing, Discovery, and Integration.</a></strong> Jian Pei, Raul
-Castro Fernandez, Xiaohui Yu. <strong>VLDB 2023 (Tutorial)</strong> 
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/saibot_vldb_2023.pdf">Saibot: A Differentially Private Data
-Search Platform.</a></strong> Zezhou Huang, Jiaxiang Liu, Daniel Gbenga Alabi,
-Raul Castro Fernandez, Eugene Wu. <strong>VLDB 2023</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="https://arxiv.org/abs/2306.02543">Addressing Budget Allocation and Revenue
-Allocation in Data Market Environments Using an Adaptive Sampling
-Algorithm.</a></strong> Boxin Zhao, Boxiang Lyu, Raul Castro Fernandez, Mladen
-Kolar. <strong>ICML 2023</strong> 
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/data-sharing-consortia-escrow.pdf">Data-Sharing Markets: Model, Protocol,
-and Algorithms to Incentivize the Formation of Data-Sharing
-Consortia.</a></strong> Raul Castro Fernandez. <strong>SIGMOD 2023</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/metam.pdf">Metam: Goal-Oriented Data
-Discovery.</a></strong> Sainyam Galhotra, Yue Gong, Raul Castro Fernandez.
-<strong>ICDE 2023</strong>
-                    </li> 
-        
-                    <li>
-                    <strong><a href="./papers/ver.pdf">Ver: View-Discovery in the
-Wild.</a></strong> Yue Gong, Zhiru Zhu, Sainyam Galhotra, Raul Castro Fernandez.
-<strong>ICDE 2023</strong> 
-                    </li>
-                    </ul>
-
-                </div>
-
-                <div class="year-block">
-                    <h3>2022</h3>
-                    <ul>
-                    
-                    <li>
-                    <strong><a href="./papers/data_station_paper-11.pdf">Data Station: Delegated, Trustworthy, and
-Auditable Computation to Enable Data-Sharing Consortia with a Data
-Escrow.</a></strong> Siyuan Xia, Zhiru Zhu, Chris Zhu, Jinjin Zhao, Kyle Chard,
-Aaron Elmore, lan Foster, Michael Franklin, Sanjay Krishnan, Raul Castro
-Fernandez. <strong>VLDB 2022</strong>
-                    </li>
-    
-                    <li>
-                    <strong><a href="./papers/7_31CRstatusofDataMarkets_final.pdf">Revisiting Online Data Markets in 2022. A
-Seller and Buyer Perspective.</a></strong> Javen Kennedy, Pranav Subramaniam,
-Sainyam Galhotra, Raul Castro Fernandez. <strong>SIGMOD Record</strong> 
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/19130-Final PDF-23138-1-10-20220414.pdf">Enabling Al Innovation via Data and Model
-Sharing: An Overview of the Nsf Convergence Accelerator Track D.</a></strong>
-Several authors <strong>Al Magazine</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/protecting-data-markets-sigmod22.pdf">Protecting Data Markets from Strategic
-Buyers.</a></strong> Raul Castro Fernandez. <strong>SIGMOD 2022</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/leva-sigmod22.pdf">Leva: Boosting Machine Learning
-Performance with Relational Embedding Data Augmentation.</a></strong> Alex Zhao,
-Raul Castro Fernandez. <strong>SIGMOD 2022</strong>
-                    </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="year-block">
-                    <h3>2020</h3>
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/1323-castrofernandez.pdf">Data Market Platforms: Trading Data
-Assets to Solve Data Problems.</a></strong> Raul Castro Fernandez, Pranav
-Subramaniam, Michael Franklin.  <strong>VLDB 2020</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="https://arxiv.org/abs/2003.09758">ARDA: Automatic Relational Data
-Augmentation for Machine Learning.</a></strong> Nadiia Chepurko, Ryan Marcus,
-Emanuel Zgraggen, Raul Castro Fernandez, Tim Kraska, David Karger.
-<strong>VLDB 2020</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="https://arxiv.org/abs/1911.11727">Starling: A Scalable Query Engine on
-Cloud Function Services.</a></strong> Matt Perron, Raul Castro Fernandez, David
-DeWitt, Samuel Madden.   <strong>SIGMOD 2020</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/cidr2020.pdf">A System for Studying Deep Network
-Training.</a></strong> Raul Castro Fernandez <strong>CIDR’20 (Abstract)</strong>
-                    </li>
-
-            <div class="year-block">
-                <h3>2019</h3>
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/lazo_icde19_cr_verified.pdf">Lazo A Cardinality-Based Method for
-Coupled Estimation of Jaccard Similarity and Containment.</a></strong> Raul
-Castro Fernandez, Jisoo Min, Demitri Devada, Samuel Madden.
-<strong>ICDE’19</strong>
-                    </li>
-    
-                    <li>
-                    <strong><a href="https://arxiv.org/abs/1903.05008">Termite: A System for Tunneling Through
-Heterogeneous Data.</a></strong> Raul Castro Fernandez, Samuel Madden.
-<strong>AIDM@SIGMOD’19</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/raha.pdf">Raha: A Configuration-Free Error
-Detection System.</a></strong> Mohammad Mahdavi, Ziawasch Abedjan, Raul Castro
-Fernandez, Sam Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang
-<strong>SIGMOD’19</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="https://dl.acm.org/citation.cfm?id=3226631">Aurum: A Story About Research
-Taste.</a></strong> Raul Castro Fernandez. <strong>Making Databases Work. ACM
-Morgan & Claypool. 2019</strong>
-                    </li>
-
-                    </ul>
-
-                </div>
-
-            <div class="year-block">
-                <h3>2018</h3>
+    <!-- ======================================================
+         STUDENTS
+    ====================================================== -->
+    <section id="students">
+        <h2>Students</h2>
+        <p style="font-size:.85rem;color:#5a5a5a;margin-bottom:.7rem;">I work with postdocs, PhD, and master's students, as well as undergraduate and visiting students.</p>
+
+        <div class="students-grid">
+            <div class="student-group">
+                <h3>Postdocs &amp; PhD Students</h3>
                 <ul>
+                    <li>Zhiru Zhu</li>
+                    <li>Tapan Srivastava</li>
+                    <li>Steven Xia</li>
+                    <li>Chris Zhu</li>
+                    <li>Hrishee Shastri</li>
+                    <li>Luthfi Balaka</li>
+                    <li>Arna W&ouml;mmel</li>
+                    <li>Steven Kochevar</li>
+                </ul>
+            </div>
 
-                    <li>
-                    <strong><a href="./papers/icde18-aurum.pdf">Aurum: A Data Discovery
-System.</a></strong> Raul Castro Fernandez, Ziawasch Abedjan, Famien Koko, Gina
-Yuan, Samuel Madden, Michael Stonebraker. <strong>ICDE’18</strong>
-                    </li>
+            <div class="student-group">
+                <h3>Master &amp; Undergraduate Students</h3>
+                <ul>
+                    <li>Joyce Chen</li>
+                    <li>Alena Zeng</li>
+                </ul>
+            </div>
+        </div>
 
-                    <li>
-                    <strong><a href="./papers/icde18-seeping.pdf">Seeping Semantics: Linking Datasets using
-Word Embeddings for Data Discovery.</a></strong> Raul Castro Fernandez, Essam
-Mansour, Abdulhakim Qahtan, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad
-Ouzzani, Michael Stonebraker, Nan Tang. <strong>ICDE’18</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/sigmod18-mdf.pdf">Meta-Dataflows: Efficient Exploratory
-Dataflow Jobs.</a></strong> Raul Castro Fernandez, William Culhane, William
-Culhane, Pijika Watcharapichat, Matthias Weidlich, Victoria Lopez Morales, Peter
-Pietzuch.   <strong>SIGMOD’18</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/icde18-xtructure.pdf">Extracting Syntactical Patterns from
-Databases.</a></strong> Andrew Ilyas, Joana M. F. da Trindade, Raul Castro
-Fernandez, Samuel Madden. <strong>ICDE’18</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/kdd18-fahes.pdf">FAHES: A Robust Disguised Missing Values
-Detector.</a></strong> Mourad Ouzzani, Nan Tang, Ahmed Elmagarmid, Raul Castro
-Fernandez, Abdulhakim A. Qahtan. <strong>KDD’18</strong>
-                    </li> 
-
-                    <li>
-                    <strong><a href="./papers/icde2018-demo-civilizer.pdf">Building Data Civilizer Pipelines with an
-Advanced Workflow Engine.</a></strong> Essam Mansour, Dong Deng, Raul Castro
-Fernandez, Abdulhakim Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed Elmagarmid,
-Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang.
-<strong>(Demo) ICDE’18</strong>
-                    </li>
-                    </ul>
-                </div>
-
-                <div class="year-block">
-                    <h3>2017</h3>
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/vldb17-quill.pdf">Quill: Efficient, Transferable, and Rich
-Analytics at Scale.</a></strong> Badrish Chandramouli, Raul Castro Fernandez,
-Jonathan Goldstein, Ahmed Eldawy, Abdul Quamar.   <strong>VLDB’17</strong>
-                    </li> 
-
-                    <li>
-                    <strong><a href="./papers/cidr17-civilizer.pdf">The Data Civilizer System.</a></strong>
-Dong Deng, Raul Castro Fernandez, Ziawasch Abedjan, Sibo Wang, Michael
-Stonebraker, Ahmed Elmagarmid, Ihab Ilyas, Samuel Madden, Mourad Ouzzani, Nan
-Tang.   <strong>CIDR’17</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/sigmod2017-demo-civilizer.pdf">A Demo of the Data Civilizer
-System.</a></strong> Raul Castro Fernandez, Dong Deng, Essam Mansour, Abdulhakim
-A Qahtan, Wenbo Tao, Ziawasch Abedjan, Ahmed Elmagarmid, Ihab Ilyas, Samuel
-Madden, Mourad Ouzzani, Michael Stonebraker, Nan Tang.    <strong>(Demo)
-SIGMOD’17</strong>
-                    </li>
-
-                    </ul>
-                </div>
-
-                <div class="year-block">
-                    <h3>2016</h3>
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/socc16-ako.pdf">Ako: Decentralised Deep Learning with
-Partial Gradient Exchange.</a></strong> Pijika Watcharapichat, Victoria Lopez
-Morales, Raul Castro Fernandez, Peter Pietzuch. <strong>SOCC’16</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/vldb16-detectingerrors.pdf">Detecting Data Errors: Where are we and
-what needs to be done?.</a></strong> Ziawasch Abedjan, Xu Chu, Dong Deng, Raul
-Castro Fernandez, Ihab F. Ilyas, Mourad Ouzzani, Paolo Papotti, Michael
-Stonebraker, Nan Tang. <strong>VLDB’16</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/sigmod16-workshop-aurum.pdf">Towards Large-Scale Data
-Discovery.</a></strong> Raul Castro Fernandez, Ziawasch Abedjan, Samuel Madden,
-Michael Stonebraker.   <strong>ExploreDB@SIGMOD’16</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/sigmod16-saber.pdf">SABER: Window-Based Hybrid Stream
-Processing for Heterogeneous Architectures.</a></strong> Alexandros Koliousis,
-Matthias Weidlich, Raul Castro Fernandez, Paolo Costa, Alexander Wolf, Peter
-Pietzuch. <strong>SIGMOD’16</strong>
-                    </li>
-
-                    <li>
-                    <strong><a href="./papers/icde16-demo-java2sdg.pdf">Java2SDG: Stateful Big Data Processing
-for the Masses.</a></strong> Raul Castro Fernandez, Panagiotis Garefalakis,
-Peter Pietzuch. <strong>(Demo) ICDE’16</strong>
-                    </li>
-
-                    </ul>
-
-                </div>
-
-                <div class="year-block">
-                    <h3>2015</h3>
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/cidr15-liquid.pdf">Liquid: Unifying Nearline and Offline
-Big Data Integration.</a></strong> Raul Castro Fernandez, Peter Pietzuch, Joel
-Koshy, Jay Kreps, Dong Lin, Neha Narkhede, Jun Rao, Chris Riccomini, Guozhang
-Wang. <strong>CIDR’15</strong>
-                    </li>
-
-                    </ul>
-                </div>
-
-                <div class="year-block">
-                    <h3>2014</h3>
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/atc14-sgd.pdf">Making State Explicit for Imperative Big
-Data Processing.</a></strong> Raul Castro Fernandez, Matteo Migliavacca,
-Evangelia Kalyvianaki and Peter Pietzuch.   <strong>USENIX ATC’14</strong>
-                    </li> 
-
-                    <li>
-                    <strong><a href="./papers/debs14_seep_gc14.pdf">Grand Challenge Scalable Stateful Stream
-Processing for Smart Grids.</a></strong> Raul Castro Fernandez, Matthias
-Weidlich, Peter Pietzuch and Avigdor Gal.   <strong>DEBS’14</strong>
-                    </li>
-                    </ul>
-                </div>
-
-                <div class="year-block">
-                    <h3>2013</h3>
-                    <ul>
-
-                    <li>
-                    <strong><a href="./papers/sigmod13-seep.pdf">Integrating Scale Out and Fault Tolerance in Stream
-Processing using Operator State Management.</a></strong> Raul Castro Fernandez,
-Matteo Migliavacca, Evangelia Kalyvianaki and Peter Pietzuch. <a href="https://sigmod.org/sigmod-awards/sigmod-test-of-time-award/"><span
-style="color:red;">SIGMOD’13 (SIGMOD’23 Test of Time
-Award)</span></a>
-                    </li>
-
-                    <li>
-                    <strong><a href="">Towards Low-Latency and In-Memory
-Large-Scale Data Processing.</a></strong> Raul Castro Fernandez and Peter
-Pietzuch.   <strong>PhD Workshop@DEBS’13</strong>
-                    </li>
-                    </ul>
-                </div>
-
-
-        </section>
-
-        <section id="students">
-            <h2>STUDENTS</h2>
-            <p class="introtxt">Below I include Postdocs, PhD, and Master students. In addition to these, I’m fortunate to work with great undergraduate students and occasionally with external students.</p>
-                    
-
-                <div class="year-block">
-                    <h3>Postdocs and PhD Students</h3>
-                    <ul>
-                        <li>Zhiru Zhu</li>
-                        <li>Tapan Srivastava</li>
-                        <li>Steven Xia</li>
-                        <li>Chris Zhu</li>
-                        <li>Hrishee Shastri</li>
-                        <li>Luthfi Balaka</li>
-                        <li>Arna Wömmel</li>
-                        <li>Steven Kochevar</li>
-                    </ul>
-                </div>
-
-                <div class="year-block">
-                    <h3>Master and Undergraduate Students</h3>
-                    <ul>
-                        <li>Joyce Chen</li>
-                        <li>Alena Zeng</li>
-                    </ul>
-                </div>
-
-                <div class="year-block">
-                    <h3>Alumni</h3>
-                    <ul>
-                        <li>Yue Gong (to Amazon AWS)</li>
-                        <li>Qiming Wang (to stealth startup)</li>
-                        <li>Kevin Dharmawan (to SBU PhD)
-                        <li>David Alexander (to University of Washington PhD)
-                        <li>Luthfi Balaka (to UChicago PhD)</li>
-                        <li>Chirag Kawediya (to startup)</li>
-                        <li>Zach Hempstead (to Anthropic) </li>
-                        <li>Sainyam Galhotra (to Cornell (assistant professor))</li>
-                        <li>Stanley Zhu (to Google)</li>
-                        <li>Alex Zhao (to Citadel)</li>
-                        <li>Jenny Long</li>
-                        <li>Yintong Ma (to ByteDance)</li>
-                        <li>Ipsita Mohanty (to UWaterloo MSC program)</li>
-                        <li>Ryan Wong (to UMichigan Undegraduate program)</li>
-                    </ul>
-                </div>
-
-        </section>
-
-        <section id="teaching">
-            <h2>TEACHING</h2>
-            <ul>
-                <li>Databases for Public Policy (Spring'25)</li>
-                <li>The Value of Data (Fall’20, Fall’21, Fall'22,
-Fall'23, Spring'24, Fall'24, Fall'25)</li>
-                <li>Ethics, Fairness, Responsibility, and Privacy in
-Data Science (Spring’20, Spring’21, Spring'22, Spring'23, Spring'24)</li>
-                <li>Introduction to Databases (Winter’20, Winter’21,
-Winter'22, Winter'23)</li>
+        <div class="student-group">
+            <h3>Alumni</h3>
+            <ul style="columns:2;column-gap:2rem;list-style:none;">
+                <li>Yue Gong <span class="alumni-note">(Amazon AWS)</span></li>
+                <li>Qiming Wang <span class="alumni-note">(stealth startup)</span></li>
+                <li>Sainyam Galhotra <span class="alumni-note">(Cornell, Asst. Professor)</span></li>
+                <li>Kevin Dharmawan <span class="alumni-note">(Stony Brook PhD)</span></li>
+                <li>David Alexander <span class="alumni-note">(UW PhD)</span></li>
+                <li>Chirag Kawediya <span class="alumni-note">(startup)</span></li>
+                <li>Zach Hempstead <span class="alumni-note">(Anthropic)</span></li>
+                <li>Stanley Zhu <span class="alumni-note">(Google)</span></li>
+                <li>Alex Zhao <span class="alumni-note">(Citadel)</span></li>
+                <li>Jenny Long</li>
+                <li>Yintong Ma <span class="alumni-note">(ByteDance)</span></li>
+                <li>Ipsita Mohanty <span class="alumni-note">(UWaterloo MSc)</span></li>
+                <li>Ryan Wong <span class="alumni-note">(UMichigan undergrad)</span></li>
             </ul>
+        </div>
+    </section>
 
-        </section>
+    <!-- ======================================================
+         TEACHING
+    ====================================================== -->
+    <section id="teaching">
+        <h2>Teaching</h2>
+        <ul class="teaching-list">
+            <li>Databases for Public Policy <span class="course-term">&mdash; Spring 2025</span></li>
+            <li>The Value of Data <span class="course-term">&mdash; Fall 2020, 2021, 2022, 2023; Spring 2024; Fall 2024, 2025</span></li>
+            <li>Ethics, Fairness, Responsibility, and Privacy in Data Science <span class="course-term">&mdash; Spring 2020, 2021, 2022, 2023, 2024</span></li>
+            <li>Introduction to Databases <span class="course-term">&mdash; Winter 2020, 2021, 2022, 2023</span></li>
+        </ul>
+    </section>
 
-        <section id="service">
-            <h2>SERVICE</h2>
-                    <ul>
-                        <li>VLDB’26 Metareviewer</li>
-                        <li>CIDR’26 PC Member</li>
-                        <li>VLDB’25 Metareviewer</li>
-                        <li>SIGMOD’25 PC Member</li>
-                        <li>CIDR’25 PC Member</li>
-                        <li>Tabular Repr Workshop at Neurips 25</li>
-                        <li>SIGMOD’24 PC Member</li>
-                        <li>CIDR’24 PC Member</li>
-                        <li>SIGMOD’23 PC Member</li>
-                        <li>SIGMOD’23 Mentorship Co-Chair</li>
-                        <li>VLDB’23 PC Member and publicity chair</li>
-                        <li>HPTS’22 PC Member</li>
-                        <li>SIGMOD’22 PC Member and publicity chair</li>
-                        <li>SIGMOD’22 publicity chair</li>
-                        <li>VLDB’22 PC Member</li>
-                        <li>VLDB’22 Workshop Co-Chair</li>
-                        <li>KDD’21 PC Member</li>
-                        <li>SIGMOD’21 PC Member (Demo track)</li>
-                        <li>VLDB’21 PC Member (Distinguished Reviewer Award)</li>
-                        <li>ICDE’21 PC Member</li>
-                        <li>VLDB’20 PC Member</li>
-                        <li>SoCC’20 PC Member</li>
-                        <li>SIGMOD’19 PC Member (Distinguished Reviewer Award)</li>
-                        <li>VLDBJ Reviewer</li>
-                        <li>TKDE Reviewer</li>
-                        <li>TODS Reviewer</li>
-                        <li>SIGMOD Record</li>
-                    </ul>
+    <!-- ======================================================
+         SERVICE
+    ====================================================== -->
+    <section id="service">
+        <h2>Service</h2>
+        <div class="service-cols">
+            <ul class="service-list">
+                <li>VLDB 2026 &mdash; Metareviewer</li>
+                <li>CIDR 2026 &mdash; PC Member</li>
+                <li>VLDB 2025 &mdash; Metareviewer, PhD Workshop Co-Chair</li>
+                <li>Tabular Representation Workshop, NeurIPS 2025</li>
+                <li>SIGMOD 2025 &mdash; PC Member</li>
+                <li>CIDR 2025 &mdash; PC Member</li>
+                <li>SIGMOD 2024 &mdash; PC Member</li>
+                <li>CIDR 2024 &mdash; PC Member</li>
+                <li>SIGMOD 2023 &mdash; PC Member, Mentorship Co-Chair</li>
+                <li>VLDB 2023 &mdash; PC Member, Publicity Chair</li>
+                <li>HPTS 2022 &mdash; PC Member</li>
+                <li>SIGMOD 2022 &mdash; PC Member, Publicity Chair</li>
+                <li>VLDB 2022 &mdash; PC Member, Workshop Co-Chair</li>
+                <li>KDD 2021 &mdash; PC Member</li>
+                <li>SIGMOD 2021 &mdash; PC Member (Demo track)</li>
+                <li>VLDB 2021 &mdash; PC Member <em>(Distinguished Reviewer Award)</em></li>
+                <li>ICDE 2021 &mdash; PC Member</li>
+                <li>VLDB 2020 &mdash; PC Member</li>
+                <li>SoCC 2020 &mdash; PC Member</li>
+                <li>SIGMOD 2019 &mdash; PC Member <em>(Distinguished Reviewer Award)</em></li>
+                <li>Journals: VLDBJ, TKDE, TODS, SIGMOD Record</li>
+            </ul>
+        </div>
+    </section>
 
-        </section>
-    </div>
+    <!-- ======================================================
+         AWARDS & RECOGNITION
+    ====================================================== -->
+    <section id="awards">
+        <h2>Awards &amp; Recognition</h2>
+        <ul class="awards-list">
+            <li><strong>Sloan Research Fellowship</strong> (2025) &mdash; Alfred P. Sloan Foundation</li>
+            <li><strong>NSF CAREER Award</strong> (2024) &mdash; National Science Foundation</li>
+            <li><strong><a href="https://sigmod.org/sigmod-awards/sigmod-test-of-time-award/">SIGMOD Test-of-Time Award</a></strong> (2023) &mdash; ACM SIGMOD, for the 2013 paper on stream processing state management</li>
+            <li><strong>VLDB Distinguished Associate Editor</strong> (2025)</li>
+            <li><strong>VLDB Distinguished Reviewer Award</strong> (2021)</li>
+            <li><strong>SIGMOD Distinguished Reviewer Award</strong> (2019)</li>
+        </ul>
+    </section>
+
+</div><!-- /container -->
+
+<!-- ======================================================
+     NEWS LOADER
+     Reads news.md from the same directory.
+     Format each line: - **MON'YY** Text with optional [links](url)
+====================================================== -->
+<script>
+(function () {
+    async function loadNews() {
+        const container = document.getElementById('news-items');
+        try {
+            const res = await fetch('news.md');
+            if (!res.ok) throw new Error('fetch failed');
+            const text = await res.text();
+
+            const lines = text.split('\n')
+                .map(l => l.trim())
+                .filter(l => l.startsWith('- '))
+                .map(l => l.slice(2).trim());
+
+            const LIMIT = 7;
+            const shown = lines.slice(0, LIMIT);
+
+            const html = shown.map(line => {
+                // Extract **DATE** prefix
+                const dateMatch = line.match(/^\*\*([^*]+)\*\*\s*/);
+                let date = '', content = line;
+                if (dateMatch) {
+                    date = dateMatch[1];
+                    content = line.slice(dateMatch[0].length);
+                }
+                // Convert [text](url) to <a>
+                content = content.replace(
+                    /\[([^\]]+)\]\(([^)]+)\)/g,
+                    '<a href="$2">$1</a>'
+                );
+                // Convert remaining **bold**
+                content = content.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+
+                return `<div class="news-item">` +
+                       `<span class="news-date">${date}</span>` +
+                       `<span class="news-content">${content}</span>` +
+                       `</div>`;
+            }).join('');
+
+            container.innerHTML = html || '<p style="color:#888;font-size:.85rem">No news items found in news.md</p>';
+        } catch (e) {
+            // Static pre-populated items already visible — nothing to do
+        }
+    }
+    loadNews();
+})();
+</script>
+
 </body>
 </html>
