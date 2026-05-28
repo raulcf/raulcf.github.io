@@ -1,8 +1,9 @@
 Brief:
-I’m an assistant professor in the Department of Computer Science at the
-University of Chicago, where I study data: how it affect our social ecosystems,
-what is its value, and how we can make better use of it. My work combines
-conceptual thinking with hands-on systems research.
+I'm an assistant professor of Computer Science at the University of Chicago. My
+research agenda, data ecology, studies how data shapes our world and designs
+technical, economic, and institutional interventions that let us realize the
+benefits of data while reducing its harms. I'm a Sloan Research Fellow, an NSF
+CAREER awardee, and a SIGMOD Test-of-Time recipient.
 
 Shorter:
 I’m an assistant professor in the Department of Computer Science at the
@@ -18,21 +19,19 @@ and completed a postdoc at MIT. I joined UChicago in 2020.
 
 
 Short:
-I’m an assistant professor in the Department of Computer Science at the
-University of Chicago, where I’m also affiliated with the Committee on Data
-Science. I’m interested in all things data. My research agenda, data ecology,
-explores how data shapes our technological, economic, social, and cultural
-systems. We study dataflows to understand these ecosystems and design
-interventions---primarily technical (new data infrastructure), but also
-economic (incentive schemes, market designs), social, and
-institutional---that allow us to realize the benefits of data while reducing its
-harms. I’m also interested in the design and implementation of systems for data
-discovery and processing. I received the SIGMOD Test-of-Time Award in 2023, an
-NSF CAREER Award in 2024, and was named a Sloan Research Fellow in 2025. I
-completed my PhD at Imperial College London (on distributed data processing) and
-my postdoc at MIT (on data discovery). I joined UChicago in 2020. I’m grateful
-to the many organizations that support our research, including DSI@UChicago, the
-Department of Economics at UChicago, the NSF, the Sloan Research Foundation, and various industry partners.
+I'm an assistant professor in the Department of Computer Science at the
+University of Chicago, where I'm also affiliated with the Committee on Data
+Science. My research agenda, data ecology, asks how data shapes our
+technological, economic, social, and cultural systems, and how to design
+interventions that let us realize the benefits of data while reducing its harms.
+We study dataflows as the unit of analysis and build interventions that are
+primarily technical — including data escrows, data-sharing protocols, and
+agentic systems for data discovery and processing — complemented by economic,
+social, and institutional mechanisms. I received the SIGMOD Test-of-Time Award
+in 2023, an NSF CAREER Award in 2024, and was named a Sloan Research Fellow in
+2025. I completed my PhD at Imperial College London on distributed data
+processing and a postdoc at MIT on data discovery. I’m grateful to the many
+organizations that support our research, including DSI@UChicago, the Department
+of Economics at UChicago, the NSF, the Sloan Research Foundation, and various
+industry partners.
 
-Long:
-Links to PDFs <TBD>
