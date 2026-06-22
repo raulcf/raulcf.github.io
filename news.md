@@ -1,3 +1,4 @@
+- **JUN'26** Invited to a Gartner Research Board Meeting to talk about AI, tribal knowledge, and agentic systems for relational data. 
 - **MAY'26** Congrats to Tapan, Zhiru, and Steven, who are graduating with a PhD!
 - **APR'26** Presented Data Ecology at the [AImpact Workshop at UIUC](https://example.com)
 - **FEB'26** Presented Data Ecology and Data Markets work at M3 Workshop
