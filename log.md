@@ -1,3 +1,4 @@
+- Jun'26. Attended Foo Camp. 
 - Jun'26. Invited to a Gartner Research Board Meeting to talk about AI, tribal knowledge, and agentic systems for relational data. 
 - Apr'26. Presented at the <a
 href="https://aimpact.illinois.edu/events/aimpact-workshop-2026.html">AImpact
