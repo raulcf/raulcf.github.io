@@ -1,3 +1,6 @@
+- Jul'26. Presented data ecology at the <a
+href="https://aaforml.com/2026/index.html#about">Crossroads of AI and Society
+workshop</a> in Paris.
 - Jun'26. Attended Foo Camp. 
 - Jun'26. Invited to a Gartner Research Board Meeting to talk about AI, tribal knowledge, and agentic systems for relational data. 
 - Apr'26. Presented at the <a
